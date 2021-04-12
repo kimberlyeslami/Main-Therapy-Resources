@@ -62,42 +62,47 @@
         <p> Select your answers below. </p>
 
         <div class="position-relative">
-            <img src="dog.png" alt="Dog drinking water" class="responsive">
-        </div>
-
-        <div class="position-relative">
-            <div class="position-absolute top-100 start-50 translate-middle">
-                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                <img src="optionMan.png" alt="Man image" width="100" height="100">
-              </button>
-
-                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                <img src="optionGirl.png" alt="Girl image" width="100" height="100">
-              </button>
-
-                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                <img src="optionDog.png" alt="Dog image" width="100" height="100">
-              </button>
+            <div class="d-flex justify-content-center bd-highlight mb-3">
+                <div class="p-2 bd-highlight"><img src="dog.png" alt="Dog drinking water" width="700px" height="500px"></div>
             </div>
         </div>
-    </div>
 
 
-    <div class="position-relative">
-        <div class="position-absolute bottom-0 end-0">
-            <a href="csWhoEyQ2.html"><button type="button" class="btn btn-outline-success">Next Question</button></a>
+        <div class="position-relative">
+            <div class="d-flex justify-content-evenly bd-highlight mb-3">
+                <div class="p-2 bd-highlight"> <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="It is not a Man! Try again :(">
+                    <img src="optionMan.png" alt="Man image" width="100" height="100">
+                  </button></div>
+
+                <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="It is not a Girl! Try again :(">
+                    <img src="optionGirl.png" alt="Girl image" width="100" height="100">
+                  </button></div>
+
+                <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="It is a Dog! Well done :)">
+                    <img src="optionDog.png" alt="Dog image" width="100" height="100">
+                  </button></div>
+            </div>
         </div>
-        <div class="position-absolute bottom-0 start-0">
-            <a href="eyCS.html"> <button type="button" class="btn btn-outline-success">Back to CS</button></a>
-        </div>
-    </div>
 
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="popover"]').popover();
-            container: 'body'
-        });
-    </script>
+
+
+        <div class="position-relative">
+
+            <div class="d-flex justify-content-between bd-highlight mb-2">
+                <div class="p-2 bd-highlight">
+                    <a href="eyCS.html"> <button type="button" class="btn btn-outline-success">Back to CS</button></a>
+                </div>
+
+                <div class="p-2 bd-highlight"> <a href="csWhoEyQ2.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
+            </div>
+
+
+            <script>
+                $(document).ready(function() {
+                    $('[data-toggle="popover"]').popover();
+                    container: 'body'
+                });
+            </script>
 
 
 </body>

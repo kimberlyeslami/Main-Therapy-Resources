@@ -21,26 +21,6 @@ th {
     font-weight: bold;
 }
 
-.responsive {
-    width: 50%;
-    height: auto;
-    position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.centeroptions {
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px;
-}
-
-.centerImage {
-    width: 50%;
-    height: 50%;
-}
-
 .textQuestions {
     text-align: right;
     size: 18px;
@@ -103,115 +83,18 @@ th {
 }
 
 .forum-post {
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #000;
 }
 
 .spoiler-content {
-    padding: 15px;
+    padding: 5px;
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 
 p {
     text-align: center;
-}
-
-.button-left {
-    position: relative;
-    bottom: 0;
-    left: 0;
-}
-
-.button2 {
-    position: relative;
-    border: none;
-    color: rgb(44, 68, 76);
-    background-color: rgb(125, 196, 123);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-left: -1200px;
-}
-
-
-/* Popup container - can be anything you want */
-
-.popup {
-    position: relative;
-    display: inline-block;
-    margin: 0px 50px 0px 0px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-
-/* The actual popup */
-
-.popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-
-
-/* Popup arrow */
-
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-
-/* Toggle this class - hide and show the popup */
-
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-
-/* Add animation (fade in the popup) */
-
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }

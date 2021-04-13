@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -54,16 +54,23 @@
             </div>
         </div>
     </nav>
-    <h1> Colourful Semantics - "Who" </h1>
+    <h2> Colourful Semantics - "Who" </h2>
 
-    <h2> Who?</h2>
+    <h3> Who?</h3>
+
+    <div class="position-relative">
+        <div class="d-flex justify-content-center bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><img src="ballerinaGirl.png" alt="ballerina dancing" width="300" height="400">
+            </div>
+        </div>
+    </div>
 
     <div class="textQuestions">
         <p><b> Who </b> is in the Picture?</p>
         <br>
 
-        <a href="#hide" class="hide btn" id="hide">Show Answer</a>
-        <a href="#show" class="show btn" id="show">Hide Answer</a>
+        <a href="#hide" class="hide btn" id="hide">Show Hint</a>
+        <a href="#show" class="show btn" id="show">Hide Hint</a>
         <div class="spoiler">
             <p class="spoiler-content">A Girl!</p>
         </div>
@@ -76,39 +83,14 @@
         </div>
     </div>
     <div class="position-relative">
-        <div class="centerImage">
-            <img src="ballerinaGirl.png" alt="ballerina dancing" class="responsive">
+        <div class="d-flex justify-content-between bd-highlight mb-2">
+            <div class="p-2 bd-highlight">
+                <a href="csWhoEyQ4.html"> <button type="button" class="btn btn-outline-success">Back to previous Question</button></a>
+            </div>
+
+            <div class="p-2 bd-highlight"> <a href="csWhoEyQ6.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
         </div>
-    </div>
 
-
-
-    <div class="position-relative">
-        <div class="position-absolute bottom-0 end-0">
-            <a href="csWhoEyQ6.html"><button type="button" class="btn btn-outline-success">Next Question</button></a>
-        </div>
-        <div class="position-absolute bottom-0 start-0">
-            <a href="csWhoEyQ4.html"> <button type="button" class="btn btn-outline-success">Back</button></a>
-        </div>
-    </div>
-
-    <script>
-        // When the user clicks on div, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-
-        function myFunction2() {
-            var popup = document.getElementById("myPopup2");
-            popup.classList.toggle("show");
-        }
-
-        function myFunction3() {
-            var popup = document.getElementById("myPopup3");
-            popup.classList.toggle("show");
-        }
-    </script>
 
 </body>
 

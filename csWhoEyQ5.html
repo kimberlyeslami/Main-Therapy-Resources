@@ -13,14 +13,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="UL-Logo.jpg" alt="" width="110" height="50" class="d-inline-block align-text-top"> </a>
+            <a class="navbar-brand" href="#"> <img src="/images/UL-Logo.jpg" alt="" width="100" height="50" class="d-inline-block align-text-top"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,7 +39,7 @@
                   Primary </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">Key words/Following instructions/Memory</a></li>
-                            <li><a class="dropdown-item" href="#">Colourful Semantics</a></li>
+                            <li><a class="dropdown-item" href="primarycs.html">Colourful Semantics</a></li>
                             <li><a class="dropdown-item" href="#">Inference/Verbal Reasoning</a></li>
                             <li><a class="dropdown-item" href="#">Sequence</a></li>
                             <li><a class="dropdown-item" href="#">Narrative</a></li>
@@ -61,7 +61,7 @@
 
     <div class="position-relative">
         <div class="d-flex justify-content-center bd-highlight mb-3">
-            <div class="p-2 bd-highlight"><img src="ballerinaGirl.png" alt="ballerina dancing" width="300" height="400">
+            <div class="p-2 bd-highlight"><img src="/images/ballerinaGirl.png" alt="ballerina dancing" width="300" height="400">
             </div>
         </div>
     </div>
@@ -70,27 +70,49 @@
         <div class="d-flex justify-content-center bd-highlight mb-3">
             <form class="row g-3">
                 <div class="col-12">
-                    <label for="who"> <img src="who.png" alt="who image" width="100" height="100"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                </div>
-                <div class="col-12">
-                    <label for="what"> <img src="what.png" alt="who image" width="200" height="100"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    <label for="who"> <img src="/images/who.png" alt="who image" width="100" height="100"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Who is it?">
                 </div>
 
-                <div class="position-relative">
-                    <div class="d-flex justify-content-between bd-highlight mb-2">
-                        <div class="p-2 bd-highlight">
-                            <a href="#hide" class="hide btn" id="hide">Show Hint</a>
-                            <a href="#show" class="show btn" id="show">Hide Hint</a>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#whohint" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Hint
+                    </a>
+                </p>
+                <div class="collapse" id="whohint">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="/images/optionBaby.png" alt="Baby image" width="80" height="80">
+                        </div>
+                        <div class="card">
+                            <img src="/images/optionBoy.png" alt="Boy image" width="80" height="80">
+                        </div>
+                        <div class="card">
+                            <img src="/images/optionGirl.png" alt="Girl image" width="80" height="80">
+                        </div>
+                    </div>
+                </div>
 
-                            <div class="spoiler">
-                                <p class="spoiler-content"> <img src="optionBoy.png" alt="Boy image" width="80" height="80"> <img src="optionGirl.png" alt="Girl image" width="80" height="80"> <img src="optionBaby.png" alt="Baby image" width="80" height="80"> </p>
-                            </div>
+                <div class="col-8">
+                    <label for="what"> <img src="/images/what.png" alt="who image" width="200" height="100"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="What are they doing?">
+                </div>
 
-                            <div class="spoiler">
-                                <p class="spoiler-content"><img src="optionWalking.png" alt="walking image" width="80" height="80"> <img src="optionJumping.png" alt="Jumping image" width="80" height="80"> <img src="optionDancing.png" alt="dancing image" width="80" height="80"></p>
-                            </div>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#whathint" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Hint
+                    </a>
+                </p>
+                <div class="collapse" id="whathint">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="/images/optionWalking.png" alt="walking image" width="80" height="80">
+                        </div>
+                        <div class="card">
+                            <img src="/images/optionJumping.png" alt="Jumping image" width="80" height="80">
+                        </div>
+                        <div class="card">
+                            <img src="/images/optionDancing.png" alt="dancing image" width="80" height="80">
                         </div>
                     </div>
                 </div>
@@ -98,13 +120,15 @@
         </div>
     </div>
 
-    <div class="position-relative">
-        <div class="d-flex justify-content-between bd-highlight mb-2"></div>
-        <a href="csWhoEyQ4.html"> <button type="button" class="btn btn-outline-success">Back to previous Question</button></a>
-    </div>
 
-    <div class="p-2 bd-highlight"> <a href="csWhoEyQ6.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
-    </div>
+    <div class="position-relative">
+        <div class="d-flex justify-content-between bd-highlight mb-2">
+            <div class="p-2 bd-highlight">
+                <a href="csWhoEyQ4.html"> <button type="button" class="btn btn-outline-success">Back to previous Question</button></a>
+            </div>
+
+            <div class="p-2 bd-highlight"> <a href="eyCS.html"><button type="button" class="btn btn-outline-success">Finish, Back to CS </button></a></div>
+        </div>
 
 </body>
 

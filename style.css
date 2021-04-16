@@ -5,3 +5,85 @@ h3 {
 p {
     text-align: center;
 }
+
+#mydiv {
+    position: absolute;
+    left: 900px;
+    bottom: 20px;
+    z-index: 9;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 9;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 9;
+    left: 300px;
+    bottom: 20px;
+}
+
+#mydivheader2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    left: 600px;
+    bottom: 20px;
+    ;
+}
+
+#mydivheader3 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 47%;
+    padding: 50px;
+    height: 300px;
+    margin: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box2 {
+    float: left;
+    width: 30%;
+    padding: 50px;
+    height: 300px;
+    margin: 20px;
+}
+
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+}

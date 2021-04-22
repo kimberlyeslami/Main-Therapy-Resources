@@ -87,191 +87,533 @@ p {
     display: table;
 }
 
-#option1 {
-    position: absolute;
-    /* left: 500px;
-    top: 175px; */
-    z-index: 9;
+@media (max-width: 575.98px) {
+    #elephant {
+        height: 100px;
+        width: 100px;
+    }
+    #teddy {
+        height: 100px;
+        width: 100px;
+    }
+    #elephantPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #teddyPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #option1 {
+        position: absolute;
+        left: 150px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option2 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option3 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option4 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option5 {
+        position: absolute;
+        left: 150px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option6 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option7 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option8 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option9 {
+        position: absolute;
+        left: 150px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option10 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option11 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option12 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option13 {
+        position: absolute;
+        left: 150px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option14 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option15 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option16 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option17 {
+        position: absolute;
+        left: 150px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option18 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option19 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option20 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option21 {
+        position: absolute;
+        left: 150px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option22 {
+        position: absolute;
+        padding-left: 10px;
+        left: 200px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option23 {
+        position: absolute;
+        padding-left: 20px;
+        left: 250px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option24 {
+        position: absolute;
+        padding-left: 30px;
+        left: 300px;
+        top: 500px;
+        z-index: 9;
+    }
 }
 
-#option2 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 175px; */
-    z-index: 9;
+@media (max-width: 991.98px) {
+    #elephant {
+        height: 150px;
+        width: 150px;
+    }
+    #teddy {
+        height: 150px;
+        width: 150px;
+    }
+    #elephantPlate {
+        height: 150px;
+        width: 150px;
+    }
+    #teddyPlate {
+        height: 150px;
+        width: 150px;
+    }
+    #option1 {
+        position: absolute;
+        left: 175px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option2 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option3 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option4 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 145px;
+        z-index: 9;
+    }
+    #option5 {
+        position: absolute;
+        left: 175px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option6 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option7 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option8 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 210px;
+        z-index: 9;
+    }
+    #option9 {
+        position: absolute;
+        left: 175px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option10 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option11 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option12 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 275px;
+        z-index: 9;
+    }
+    #option13 {
+        position: absolute;
+        left: 175px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option14 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option15 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option16 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 350px;
+        z-index: 9;
+    }
+    #option17 {
+        position: absolute;
+        left: 175px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option18 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option19 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option20 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option21 {
+        position: absolute;
+        left: 175px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option22 {
+        position: absolute;
+        padding-left: 10px;
+        left: 225px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option23 {
+        position: absolute;
+        padding-left: 20px;
+        left: 275px;
+        top: 500px;
+        z-index: 9;
+    }
+    #option24 {
+        position: absolute;
+        padding-left: 30px;
+        left: 325px;
+        top: 500px;
+        z-index: 9;
+    }
 }
 
-#option3 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 175px; */
-    z-index: 9;
-}
-
-#option4 {
-    position: absolute;
-    /* padding-left: 30px;
-    left: 800px;
-    top: 175px; */
-    z-index: 9;
-}
-
-#option5 {
-    position: absolute;
-    /* padding-left: 40px;
-    left: 900px;
-    top: 175px; */
-    z-index: 9;
-}
-
-#option6 {
-    position: absolute;
-    /* padding-left: 50px;
-    left: 1000px;
-    top: 175px; */
-    z-index: 9;
-}
-
-#option7 {
-    position: absolute;
-    /* left: 500px;
-    top: 300px; */
-    z-index: 9;
-}
-
-#option8 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 300px; */
-    z-index: 9;
-}
-
-#option9 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 300px; */
-    z-index: 9;
-}
-
-#option10 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 425px; */
-    z-index: 9;
-}
-
-#option11 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 425px; */
-    z-index: 9;
-}
-
-#option12 {
-    position: absolute;
-    /* padding-left: 30px;
-    left: 800px;
-    top: 425px; */
-    z-index: 9;
-}
-
-#option13 {
-    position: absolute;
-    /* left: 500px;
-    top: 550px; */
-    z-index: 9;
-}
-
-#option14 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 550px; */
-    z-index: 9;
-}
-
-#option15 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 550px; */
-    z-index: 9;
-}
-
-#option16 {
-    position: absolute;
-    /* padding-left: 30px;
-    left: 800px;
-    top: 550px; */
-    z-index: 9;
-}
-
-#option17 {
-    position: absolute;
-    /* left: 500px;
-    top: 675px; */
-    z-index: 9;
-}
-
-#option18 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 675px; */
-    z-index: 9;
-}
-
-#option19 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 675px; */
-    z-index: 9;
-}
-
-#option20 {
-    position: absolute;
-    /* padding-left: 30px;
-    left: 800px;
-    top: 675px; */
-    z-index: 9;
-}
-
-#option21 {
-    position: absolute;
-    /* left: 500px;
-    top: 800px; */
-    z-index: 9;
-}
-
-#option22 {
-    position: absolute;
-    /* padding-left: 10px;
-    left: 600px;
-    top: 800px; */
-    z-index: 9;
-}
-
-#option23 {
-    position: absolute;
-    /* padding-left: 20px;
-    left: 700px;
-    top: 800px; */
-    z-index: 9;
-}
-
-#option24 {
-    position: absolute;
-    /* padding-left: 30px;
-    left: 800px;
-    top: 800px; */
-    z-index: 9;
+@media (min-width: 1400px) {
+    #option1 {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        left: 500px;
+        top: 175px;
+        z-index: 9;
+    }
+    #option2 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 175px;
+        z-index: 9;
+    }
+    #option3 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 175px;
+        z-index: 9;
+    }
+    #option4 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 175px;
+        z-index: 9;
+    }
+    #option5 {
+        position: absolute;
+        left: 500px;
+        top: 300px;
+        z-index: 9;
+    }
+    #option6 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 300px;
+        z-index: 9;
+    }
+    #option7 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 300px;
+        z-index: 9;
+    }
+    #option8 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 300px;
+        z-index: 9;
+    }
+    #option9 {
+        position: absolute;
+        left: 500px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option10 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option11 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option12 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 425px;
+        z-index: 9;
+    }
+    #option13 {
+        position: absolute;
+        left: 500px;
+        top: 550px;
+        z-index: 9;
+    }
+    #option14 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 550px;
+        z-index: 9;
+    }
+    #option15 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 550px;
+        z-index: 9;
+    }
+    #option16 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 550px;
+        z-index: 9;
+    }
+    #option17 {
+        position: absolute;
+        left: 500px;
+        top: 675px;
+        z-index: 9;
+    }
+    #option18 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 675px;
+        z-index: 9;
+    }
+    #option19 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 675px;
+        z-index: 9;
+    }
+    #option20 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 675px;
+        z-index: 9;
+    }
+    #option21 {
+        position: absolute;
+        left: 500px;
+        top: 800px;
+        z-index: 9;
+    }
+    #option22 {
+        position: absolute;
+        padding-left: 5px;
+        left: 600px;
+        top: 800px;
+        z-index: 9;
+    }
+    #option23 {
+        position: absolute;
+        padding-left: 10px;
+        left: 700px;
+        top: 800px;
+        z-index: 9;
+    }
+    #option24 {
+        position: absolute;
+        padding-left: 15px;
+        left: 800px;
+        top: 800px;
+        z-index: 9;
+    }
 }
 
 #option1header,

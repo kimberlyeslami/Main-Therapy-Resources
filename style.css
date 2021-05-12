@@ -77,6 +77,24 @@ p {
 .flexCol { width: 100%; }
 }
 
+/* ---- Slider ----*/
+.carousel-item{
+  height: 900px;
+  width: 900px;
+  background: #777;
+  position: relative;
+  background-position: center;
+  background-size:cover;
+}
+
+.container {
+  position: absolute;
+  height:inherit;
+  width:inherit;
+
+}
+
+
 .box {
     float: left;
     width: 47%;
@@ -1231,5 +1249,5 @@ p {
 #alexstoryquestions{
     margin: 20px;
     background-color: rgb(173, 232, 255);
-    
+
 }

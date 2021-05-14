@@ -1,62 +1,62 @@
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 #mydiv {
-    position: absolute;
-    left: 900px;
-    bottom: 20px;
-    z-index: 9;
+  position: absolute;
+  left: 900px;
+  bottom: 20px;
+  z-index: 9;
 }
 
 #mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 9;
-    background-color: #2196f3;
-    color: #fff;
+  padding: 10px;
+  cursor: move;
+  z-index: 9;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 #mydiv2 {
-    position: absolute;
-    z-index: 9;
-    left: 300px;
-    bottom: 20px;
+  position: absolute;
+  z-index: 9;
+  left: 300px;
+  bottom: 20px;
 }
 
 #mydivheader2 {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196f3;
-    color: #fff;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #mydiv3 {
-    position: absolute;
-    z-index: 9;
-    left: 600px;
-    bottom: 20px;
+  position: absolute;
+  z-index: 9;
+  left: 600px;
+  bottom: 20px;
 }
 
 #mydivheader3 {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196f3;
-    color: #fff;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* (A) 3 COLUMNS ON BIG SCREENS */
@@ -73,1146 +73,1148 @@ p {
 }
 /* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
 @media only screen and (max-width: 768px) {
-.flexWrap { flex-wrap: wrap; }
-.flexCol { width: 100%; }
+  .flexWrap {
+    flex-wrap: wrap;
+  }
+  .flexCol {
+    width: 100%;
+  }
 }
 
 /* ---- Slider ----*/
-.carousel-item{
+.carousel-item {
   height: 900px;
   width: 900px;
   background: #777;
   position: relative;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
 
 .container {
   position: absolute;
-  height:inherit;
-  width:inherit;
-
+  height: inherit;
+  width: inherit;
 }
 
-
 .box {
-    float: left;
-    width: 47%;
-    padding: 50px;
-    height: 300px;
-    margin: 20px;
+  float: left;
+  width: 47%;
+  padding: 50px;
+  height: 300px;
+  margin: 20px;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .box2 {
-    float: left;
-    width: 30%;
-    padding: 50px;
-    height: 300px;
-    margin: 20px;
+  float: left;
+  width: 30%;
+  padding: 50px;
+  height: 300px;
+  margin: 20px;
 }
 
 .clearfix2::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @media (max-width: 575.98px) {
-    #elephant {
-        height: 100px;
-        width: 100px;
-    }
-    #teddy {
-        height: 100px;
-        width: 100px;
-    }
-    #elephantPlate {
-        height: 100px;
-        width: 100px;
-    }
-    #teddyPlate {
-        height: 100px;
-        width: 100px;
-    }
-    #option1 {
-        position: absolute;
-        left: 150px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        left: 150px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        left: 150px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 150px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        left: 150px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        left: 150px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 500px;
-        z-index: 9;
-    }
+  #elephant {
+    height: 100px;
+    width: 100px;
+  }
+  #teddy {
+    height: 100px;
+    width: 100px;
+  }
+  #elephantPlate {
+    height: 100px;
+    width: 100px;
+  }
+  #teddyPlate {
+    height: 100px;
+    width: 100px;
+  }
+  #option1 {
+    position: absolute;
+    left: 150px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    left: 150px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    left: 150px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    left: 150px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 10px;
+    left: 200px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 20px;
+    left: 250px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 30px;
+    left: 300px;
+    top: 500px;
+    z-index: 9;
+  }
 }
 
-@media (min-width: 576px) and (max-width:767.98px) {
-    #elephant {
-        height: 135px;
-        width: 135px;
-    }
-    #teddy {
-        height: 135px;
-        width: 135px;
-    }
-    #elephantPlate {
-        height: 135px;
-        width: 135px;
-    }
-    #teddyPlate {
-        height: 135px;
-        width: 135px;
-    }
-    #option1 {
-        position: absolute;
-        left: 175px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        left: 175px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        left: 175px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 175px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        left: 175px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        left: 175px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 10px;
-        left: 225px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 20px;
-        left: 275px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 30px;
-        left: 325px;
-        top: 500px;
-        z-index: 9;
-    }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #elephant {
+    height: 135px;
+    width: 135px;
+  }
+  #teddy {
+    height: 135px;
+    width: 135px;
+  }
+  #elephantPlate {
+    height: 135px;
+    width: 135px;
+  }
+  #teddyPlate {
+    height: 135px;
+    width: 135px;
+  }
+  #option1 {
+    position: absolute;
+    left: 175px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    left: 175px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    left: 175px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 175px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    left: 175px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    left: 175px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 10px;
+    left: 225px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 20px;
+    left: 275px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 30px;
+    left: 325px;
+    top: 500px;
+    z-index: 9;
+  }
 }
 
-@media (min-width: 768px) and (max-width:991.98px) {
-    #elephant {
-        height: 165px;
-        width: 165px;
-    }
-    #teddy {
-        height: 165px;
-        width: 165px;
-    }
-    #elephantPlate {
-        height: 165px;
-        width: 165px;
-    }
-    #teddyPlate {
-        height: 165px;
-        width: 165px;
-    }
-    #option1 {
-        position: absolute;
-        left: 200px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        left: 200px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 210px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        left: 200px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 275px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 200px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 350px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        left: 200px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        left: 200px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 500px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 500px;
-        z-index: 9;
-    }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #elephant {
+    height: 165px;
+    width: 165px;
+  }
+  #teddy {
+    height: 165px;
+    width: 165px;
+  }
+  #elephantPlate {
+    height: 165px;
+    width: 165px;
+  }
+  #teddyPlate {
+    height: 165px;
+    width: 165px;
+  }
+  #option1 {
+    position: absolute;
+    left: 200px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 145px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    left: 200px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 210px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 275px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 350px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    left: 200px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 10px;
+    left: 300px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 20px;
+    left: 400px;
+    top: 500px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 30px;
+    left: 500px;
+    top: 500px;
+    z-index: 9;
+  }
 }
 
-@media (min-width: 992px) and (max-width:1199.98px) {
-    #elephant {
-        height: 200px;
-        width: 200px;
-    }
-    #teddy {
-        height: 200px;
-        width: 200px;
-    }
-    #elephantPlate {
-        height: 200px;
-        width: 200px;
-    }
-    #teddyPlate {
-        height: 200px;
-        width: 200px;
-    }
-    #option1 {
-        position: absolute;
-        left: 300px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 300px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 300px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 550px;
-        z-index: 9;
-    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #elephant {
+    height: 200px;
+    width: 200px;
+  }
+  #teddy {
+    height: 200px;
+    width: 200px;
+  }
+  #elephantPlate {
+    height: 200px;
+    width: 200px;
+  }
+  #teddyPlate {
+    height: 200px;
+    width: 200px;
+  }
+  #option1 {
+    position: absolute;
+    left: 300px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 375px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 450px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 525px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    padding-left: 40px;
+    left: 600px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 50px;
+    left: 675px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 10px;
+    left: 375px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    padding-left: 20px;
+    left: 450px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 30px;
+    left: 525px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 40px;
+    left: 600px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 50px;
+    left: 675px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 300px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 375px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 450px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 525px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    padding-left: 40px;
+    left: 600px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 50px;
+    left: 675px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 10px;
+    left: 375px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    padding-left: 20px;
+    left: 450px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 30px;
+    left: 525px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 40px;
+    left: 600px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 50px;
+    left: 675px;
+    top: 550px;
+    z-index: 9;
+  }
 }
 
-@media (min-width: 1200px) and (max-width:1399.98px) {
-    #elephant {
-        height: 225px;
-        width: 225px;
-    }
-    #teddy {
-        height: 225px;
-        width: 225px;
-    }
-    #elephantPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #teddyPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #option1 {
-        position: absolute;
-        left: 300px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 300px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 300px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 550px;
-        z-index: 9;
-    }
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #elephant {
+    height: 225px;
+    width: 225px;
+  }
+  #teddy {
+    height: 225px;
+    width: 225px;
+  }
+  #elephantPlate {
+    height: 225px;
+    width: 225px;
+  }
+  #teddyPlate {
+    height: 225px;
+    width: 225px;
+  }
+  #option1 {
+    position: absolute;
+    left: 300px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 400px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 500px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 600px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    padding-left: 40px;
+    left: 700px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 50px;
+    left: 800px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 10px;
+    left: 400px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    padding-left: 20px;
+    left: 500px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 30px;
+    left: 600px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 40px;
+    left: 700px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 50px;
+    left: 800px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 300px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 400px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 500px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 600px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    padding-left: 40px;
+    left: 700px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 50px;
+    left: 800px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 10px;
+    left: 400px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    padding-left: 20px;
+    left: 500px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 30px;
+    left: 600px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 40px;
+    left: 700px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 50px;
+    left: 800px;
+    top: 550px;
+    z-index: 9;
+  }
 }
 
 @media (min-width: 1400px) {
-    #elephant {
-        height: 225px;
-        width: 225px;
-    }
-    #teddy {
-        height: 225px;
-        width: 225px;
-    }
-    #elephantPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #teddyPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #option1 {
-        position: absolute;
-        left: 500px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 500px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 500px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 500px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 550px;
-        z-index: 9;
-    }
+  #elephant {
+    height: 225px;
+    width: 225px;
+  }
+  #teddy {
+    height: 225px;
+    width: 225px;
+  }
+  #elephantPlate {
+    height: 225px;
+    width: 225px;
+  }
+  #teddyPlate {
+    height: 225px;
+    width: 225px;
+  }
+  #option1 {
+    position: absolute;
+    left: 500px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option2 {
+    position: absolute;
+    padding-left: 10px;
+    left: 600px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option3 {
+    position: absolute;
+    padding-left: 20px;
+    left: 700px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option4 {
+    position: absolute;
+    padding-left: 30px;
+    left: 800px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option5 {
+    position: absolute;
+    padding-left: 40px;
+    left: 900px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option6 {
+    position: absolute;
+    padding-left: 50px;
+    left: 1000px;
+    top: 175px;
+    z-index: 9;
+  }
+  #option7 {
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option8 {
+    position: absolute;
+    padding-left: 10px;
+    left: 600px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option9 {
+    position: absolute;
+    padding-left: 20px;
+    left: 700px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option10 {
+    position: absolute;
+    padding-left: 30px;
+    left: 800px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option11 {
+    position: absolute;
+    padding-left: 40px;
+    left: 900px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option12 {
+    position: absolute;
+    padding-left: 50px;
+    left: 1000px;
+    top: 300px;
+    z-index: 9;
+  }
+  #option13 {
+    position: absolute;
+    left: 500px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option14 {
+    position: absolute;
+    padding-left: 10px;
+    left: 600px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option15 {
+    position: absolute;
+    padding-left: 20px;
+    left: 700px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option16 {
+    position: absolute;
+    padding-left: 30px;
+    left: 800px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option17 {
+    position: absolute;
+    padding-left: 40px;
+    left: 900px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option18 {
+    position: absolute;
+    padding-left: 50px;
+    left: 1000px;
+    top: 425px;
+    z-index: 9;
+  }
+  #option19 {
+    position: absolute;
+    left: 500px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option20 {
+    position: absolute;
+    padding-left: 10px;
+    left: 600px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option21 {
+    position: absolute;
+    padding-left: 20px;
+    left: 700px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option22 {
+    position: absolute;
+    padding-left: 30px;
+    left: 800px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option23 {
+    position: absolute;
+    padding-left: 40px;
+    left: 900px;
+    top: 550px;
+    z-index: 9;
+  }
+  #option24 {
+    position: absolute;
+    padding-left: 50px;
+    left: 1000px;
+    top: 550px;
+    z-index: 9;
+  }
 }
 
 #option1header,
@@ -1239,15 +1241,33 @@ p {
 #option22header,
 #option23header,
 #option24header {
-    padding: 10px;
-    cursor: move;
-    z-index: 9;
-    background-color: #2196f3;
-    color: #fff;
+  padding: 10px;
+  cursor: move;
+  z-index: 9;
+  background-color: #2196f3;
+  color: #fff;
 }
 
-#alexstoryquestions{
-    margin: 20px;
-    background-color: rgb(173, 232, 255);
+#alexstoryquestions {
+  margin: 20px;
+  background-color: rgb(173, 232, 255);
+}
+.dot {
+  height: 200px;
+  width: 210px;
+  background-color: rgb(126, 247, 252);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
 
+input[type="text"] {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+
+label {
+  text-align: center;
+  float: center;
 }

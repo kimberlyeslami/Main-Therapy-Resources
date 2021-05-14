@@ -1254,7 +1254,7 @@ p {
 }
 .dot {
   height: 200px;
-  width: 210px;
+  width: 250px;
   background-color: rgb(126, 247, 252);
   border-radius: 50%;
   display: inline-block;
@@ -1270,8 +1270,6 @@ input[type="text"] {
 label {
   text-align: center;
   float: center;
+  font-size: 19px;
 }
 
-.q2{
-  text-align: center;
-}

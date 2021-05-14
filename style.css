@@ -8,7 +8,7 @@ p {
 
 #mydiv {
   position: absolute;
-  left: 900px;
+  left: 1000px;
   bottom: 20px;
   z-index: 9;
 }
@@ -24,7 +24,7 @@ p {
 #mydiv2 {
   position: absolute;
   z-index: 9;
-  left: 300px;
+  left: 200px;
   bottom: 20px;
 }
 
@@ -99,9 +99,9 @@ p {
 
 .box {
   float: left;
-  width: 47%;
-  padding: 50px;
-  height: 300px;
+  width: 30%;
+  padding: 3.125rem;
+  height: 21.875rem;
   margin: 20px;
 }
 
@@ -114,8 +114,8 @@ p {
 .box2 {
   float: left;
   width: 30%;
-  padding: 50px;
-  height: 300px;
+  padding: 3.125rem;
+  height: 21.875rem;
   margin: 20px;
 }
 
@@ -124,7 +124,15 @@ p {
   clear: both;
   display: table;
 }
+#kickingfootball{
+  height: 300px;
+  width: 500px;
+}
 
+#ballinpond{
+  height: 300px;
+  width: 500px;
+}
 @media (max-width: 575.98px) {
   #elephant {
     height: 100px;
@@ -1254,7 +1262,7 @@ p {
 }
 .dot {
   height: 200px;
-  width: 210px;
+  width: 250px;
   background-color: rgb(126, 247, 252);
   border-radius: 50%;
   display: inline-block;
@@ -1270,8 +1278,22 @@ input[type="text"] {
 label {
   text-align: center;
   float: center;
+  font-size: 19px;
 }
+#answerbox {
+  margin: 20px;
+  padding: auto;
+}
+.form-label{
+  font-size: 20px;
+}
+.form-control{
+  font-size: 18px;
+}
+<<<<<<< HEAD
+=======
 
 .q2{
   text-align: center;
 }
+>>>>>>> 6a987cb82bf20efa2fd99cb77ed5e1b000a3092b

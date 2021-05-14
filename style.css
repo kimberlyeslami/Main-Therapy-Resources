@@ -69,7 +69,7 @@ p {
   box-sizing: border-box;
   padding: 10px;
   width: 33.3%;
-  background: #ffe2e0;
+  background: #ffffff;
 }
 /* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
 @media only screen and (max-width: 768px) {

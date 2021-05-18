@@ -137,6 +137,13 @@ p {
     display: table;
 }
 
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #2D444A;
+  color: floralwhite;
+}
+
 #kickingfootball {
     height: 300px;
     width: 500px;

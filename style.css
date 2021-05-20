@@ -79,10 +79,12 @@ p {
     background: #ffffff;
 }
 
+
 /* HAHAHAHAHA */
+
 .align-text-top {
-  width: 60px;
-  height: 60px;
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -144,10 +146,10 @@ p {
 }
 
 .jumbotron {
-  padding: 70px 30px 70px 30px;
-  margin: 0px auto;
-  background: #2D444A;
-  color: floralwhite;
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #2D444A;
+    color: floralwhite;
 }
 
 #kickingfootball {
@@ -158,54 +160,6 @@ p {
 #ballinpond {
     height: 300px;
     width: 500px;
-}
-
-#elephant {
-    height: 210px;
-    width: 210px;
-}
-
-#teddy {
-    height: 210px;
-    width: 210px;
-}
-
-#elephantPlate {
-    height: 210px;
-    width: 210px;
-}
-
-#teddyPlate {
-    height: 210px;
-    width: 210px;
-}
-
-#brb,
-#bra,
-#bric,
-#brc,
-#srb,
-#sra,
-#sric,
-#src,
-#bgb,
-#bga,
-#bgic,
-#bgc,
-#sga,
-#sgb,
-#sgc,
-#sgic,
-#bya,
-#byc,
-#byic,
-#byb,
-#syb,
-#sya,
-#syc,
-#syic {
-    height: 60px;
-    width: 60px;
 }
 
 #option1 {
@@ -328,8 +282,52 @@ p {
     z-index: 9;
 }
 
+@media (max-width: 575.98px) {
+    #elephant {
+        height: 100px;
+        width: 100px;
+    }
+    #teddy {
+        height: 100px;
+        width: 100px;
+    }
+    #elephantPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #teddyPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 60px;
+        width: 60px;
+    }
+}
 
-/*
 @media (min-width: 576px) and (max-width: 767.98px) {
     #elephant {
         height: 135px;
@@ -373,168 +371,6 @@ p {
     #syic {
         height: 70px;
         width: 70px;
-    }
-    #option1 {
-        position: absolute;
-        left: 150px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        left: 150px;
-        top: 240px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 240px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 240px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 240px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        left: 150px;
-        top: 335px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 335px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 335px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 335px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 150px;
-        top: 435px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 435px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 435px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 435px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        left: 150px;
-        top: 525px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 525px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 525px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 525px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        left: 150px;
-        top: 620px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 10px;
-        left: 200px;
-        top: 620px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 20px;
-        left: 250px;
-        top: 620px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 30px;
-        left: 300px;
-        top: 620px;
-        z-index: 9;
     }
 }
 
@@ -582,168 +418,6 @@ p {
         height: 75px;
         width: 75px;
     }
-    #option1 {
-        position: absolute;
-        left: 200px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 145px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        left: 200px;
-        top: 250px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 250px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 250px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 250px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        left: 200px;
-        top: 345px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 345px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 345px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 345px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 200px;
-        top: 450px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 450px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 450px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 450px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        left: 200px;
-        top: 535px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 535px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 535px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 535px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        left: 200px;
-        top: 630px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 10px;
-        left: 300px;
-        top: 630px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 20px;
-        left: 400px;
-        top: 630px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 30px;
-        left: 500px;
-        top: 630px;
-        z-index: 9;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -790,170 +464,6 @@ p {
         height: 80px;
         width: 80px;
     }
-    #option1 {
-        position: absolute;
-        left: 300px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 300px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 300px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 375px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 450px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 525px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 675px;
-        top: 550px;
-        z-index: 9;
-    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -973,169 +483,32 @@ p {
         height: 255px;
         width: 255px;
     }
-    #option1 {
-        position: absolute;
-        left: 300px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 300px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 300px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 300px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 400px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 500px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 700px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 800px;
-        top: 550px;
-        z-index: 9;
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 80px;
+        width: 80px;
     }
 }
 
@@ -1156,201 +529,33 @@ p {
         height: 225px;
         width: 225px;
     }
-    #option1 {
-        position: absolute;
-        left: 500px;
-        top: 175px;
-        z-index: 9;
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 80px;
+        width: 80px;
     }
-    #option2 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option3 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option4 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option5 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option6 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 175px;
-        z-index: 9;
-    }
-    #option7 {
-        position: absolute;
-        left: 500px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option8 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option9 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option10 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option11 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option12 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 300px;
-        z-index: 9;
-    }
-    #option13 {
-        position: absolute;
-        left: 500px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option14 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option15 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option16 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option17 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option18 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 425px;
-        z-index: 9;
-    }
-    #option19 {
-        position: absolute;
-        left: 500px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option20 {
-        position: absolute;
-        padding-left: 10px;
-        left: 600px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option21 {
-        position: absolute;
-        padding-left: 20px;
-        left: 700px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option22 {
-        position: absolute;
-        padding-left: 30px;
-        left: 800px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option23 {
-        position: absolute;
-        padding-left: 40px;
-        left: 900px;
-        top: 550px;
-        z-index: 9;
-    }
-    #option24 {
-        position: absolute;
-        padding-left: 50px;
-        left: 1000px;
-        top: 550px;
-        z-index: 9;
-    }
-} */
-
-#option1header,
-#option2header,
-#option3header,
-#option4header,
-#option5header,
-#option6header,
-#option7header,
-#option8header,
-#option9header,
-#option10header,
-#option11header,
-#option12header,
-#option13header,
-#option14header,
-#option15header,
-#option16header,
-#option17header,
-#option18header,
-#option19header,
-#option20header,
-#option21header,
-#option22header,
-#option23header,
-#option24header {
-    padding: 10px 10px 10px 10px;
-    cursor: move;
-    z-index: 9;
-    background-color: #2196f3;
-    color: #fff;
 }
 
 #alexstoryquestions {

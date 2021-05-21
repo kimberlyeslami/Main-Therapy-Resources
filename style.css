@@ -162,6 +162,11 @@ p {
     width: 500px;
 }
 
+#teddy2 {
+    position: absolute;
+    z-index: 9;
+}
+
 #option1 {
     position: absolute;
     z-index: 9;

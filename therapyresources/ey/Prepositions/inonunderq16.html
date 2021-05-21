@@ -92,37 +92,91 @@
 
     <h2> Prepositions - in ,on ,under</h2>
 
-    <h5> Where is the Spider?</h5>
+    <h5> Put the Teddy UNDER the table </h5>
+
+    <br>
+    <br>
 
     <div class="container-md">
         <div class="row">
-            <div class="col-8">
-                <img src="../Prepositions/images/spiderinsink.png" alt="spider in the sink" height="400" weight="400" id="spiderinsink">
+            <div class="col-md-4">
+                <img src="../Prepositions/images/chair.png" alt="chair" height="300" width="240" id="chair">
             </div>
+            <div class="col-md-4">
+                <img src="../Prepositions/images/table.png" alt="table" height="300" width="300" id="table">
+            </div>
+            <div class="col-md-4">
+                <img src="../Prepositions/images/box.png" alt="box" height="300" width="400" id="box">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
             <div class="col-4">
-                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="  Try again :(  The spider is not ON the sink!">
-                    <img src="../Prepositions/images/on.png" alt="on" width="200" height="200">
-                  </button>
-                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="   Well Done :) The spider is IN the sink!">
-                    <img src="../Prepositions/images/in.png" alt="in" width="200" height="200">
-                  </button>
+                <div id="teddy2">
+                    <p>
+                        <img src="../Prepositions/images/teddy.png" alt="on" width="200" height="200">
+                    </p>
+                </div>
             </div>
+            <div class="col-4"></div>
         </div>
     </div>
 
     <div class="d-flex justify-content-between bd-highlight mb-2">
         <div class="p-2 bd-highlight">
-            <a href="inonunderq6.html"> <button type="button" class="btn btn-outline-success"> Previous Question</button></a>
+            <a href="inonunderq15.html"> <button type="button" class="btn btn-outline-success"> Previous Question</button></a>
         </div>
 
-        <div class="p-2 bd-highlight"> <a href="inonunderq8.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
+        <div class="p-2 bd-highlight"> <a href="inonunderq17.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
     </div>
 
     <script>
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
-            return new bootstrap.Popover(popoverTriggerEl)
-        })
+        // Make the DIV element draggable:
+        dragElement(document.getElementById("teddy2"));
+
+        function dragElement(elmnt) {
+            var pos1 = 0,
+                pos2 = 0,
+                pos3 = 0,
+                pos4 = 0;
+            if (document.getElementById(elmnt.id + "header")) {
+                // if present, the header is where you move the DIV from:
+                document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+            } else {
+                // otherwise, move the DIV from anywhere inside the DIV:
+                elmnt.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                // stop moving when mouse button is released:
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+        }
     </script>
 
 </body>

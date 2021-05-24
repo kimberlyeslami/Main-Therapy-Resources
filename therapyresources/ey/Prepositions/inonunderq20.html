@@ -92,20 +92,23 @@
 
     <h2> Prepositions - in ,on ,under</h2>
 
-    <h5> Where is Teddy? </h5>
+    <h5> in, on or under? </h5>
 
     <div class="container-md">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <img src="../Prepositions/images/teddyontable.png" alt="teddy on table" height="350" width="350" id="teddyontable">
+            <div class="col-8">
+                <img src="../Prepositions/images/bunnyundertable.png" alt="bunny under table" height="500" weight="500" id="bunnyundertable">
             </div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="mb-3" id="answerbox">
-                <label for="exampleFormControlTextarea1" class="form-label">Type your answer here:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <div class="col-4">
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Try again :(  The rabbit is not ON the table!">
+                    <img src="../Prepositions/images/on.png" alt="on" width="180" height="180">
+                  </button>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Well Done :)  the rabbit is UNDER the table! ">
+                    <img src="../Prepositions/images/under.png" alt="under" width="180" height="180">
+                  </button>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Try again :(  The rabbit is not IN the table!">
+                    <img src="../Prepositions/images/in.png" alt="in" width="180" height="180">
+                  </button>
             </div>
         </div>
     </div>
@@ -118,6 +121,12 @@
         <div class="p-2 bd-highlight"> <a href="inonunderq21.html"><button type="button" class="btn btn-outline-success">Next Question</button></a></div>
     </div>
 
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
 </body>
 
 </html>

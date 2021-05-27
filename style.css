@@ -10,10 +10,15 @@ p {
     text-align: center;
 }
 
+.table-success {
+  background-color: Green;
+}
+
 #CS {
     font-size: 44px;
     font-weight: bold;
     text-align: center;
+    color: #ffffff;
 }
 
 #cslinks {

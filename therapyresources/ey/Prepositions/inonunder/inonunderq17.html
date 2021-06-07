@@ -91,35 +91,26 @@
         </div>
     </nav>
 
-    <h2> Prepositions - in ,on ,under</h2>
+    <h2> in ,on and under</h2>
 
-    <h5> Put the Teddy ON the table </h5>
-
-    <br>
-    <br>
+    <h5> in, on or under? </h5>
 
     <div class="container-md">
         <div class="row">
-            <div class="col-md-4">
-                <img src="./images/chair.png" alt="chair" height="300" width="240" id="chair">
+            <div class="col-8">
+                <img src="./images/bunnyundertable.png" alt="bunny under table" height="500" weight="500" id="bunnyundertable">
             </div>
-            <div class="col-md-4">
-                <img src="./images/table.png" alt="table" height="300" width="300" id="table">
-            </div>
-            <div class="col-md-4">
-                <img src="./images/box.png" alt="box" height="300" width="400" id="box">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4"></div>
             <div class="col-4">
-                <div id="teddy2">
-                    <p>
-                        <img src="./images/teddy.png" alt="on" width="200" height="200">
-                    </p>
-                </div>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Try again :(  The rabbit is not ON the table!">
+                    <img src="./images/on.png" alt="on" width="180" height="180">
+                  </button>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Well Done :)  the rabbit is UNDER the table! ">
+                    <img src="./images/under.png" alt="under" width="180" height="180">
+                  </button>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Try again :(  The rabbit is not IN the table!">
+                    <img src="./images/in.png" alt="in" width="180" height="180">
+                  </button>
             </div>
-            <div class="col-4"></div>
         </div>
     </div>
 
@@ -132,54 +123,11 @@
     </div>
 
     <script>
-        // Make the DIV element draggable:
-        dragElement(document.getElementById("teddy2"));
-
-        function dragElement(elmnt) {
-            var pos1 = 0,
-                pos2 = 0,
-                pos3 = 0,
-                pos4 = 0;
-            if (document.getElementById(elmnt.id + "header")) {
-                // if present, the header is where you move the DIV from:
-                document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-            } else {
-                // otherwise, move the DIV from anywhere inside the DIV:
-                elmnt.onmousedown = dragMouseDown;
-            }
-
-            function dragMouseDown(e) {
-                e = e || window.event;
-                e.preventDefault();
-                // get the mouse cursor position at startup:
-                pos3 = e.clientX;
-                pos4 = e.clientY;
-                document.onmouseup = closeDragElement;
-                // call a function whenever the cursor moves:
-                document.onmousemove = elementDrag;
-            }
-
-            function elementDrag(e) {
-                e = e || window.event;
-                e.preventDefault();
-                // calculate the new cursor position:
-                pos1 = pos3 - e.clientX;
-                pos2 = pos4 - e.clientY;
-                pos3 = e.clientX;
-                pos4 = e.clientY;
-                // set the element's new position:
-                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-            }
-
-            function closeDragElement() {
-                // stop moving when mouse button is released:
-                document.onmouseup = null;
-                document.onmousemove = null;
-            }
-        }
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
     </script>
-
 </body>
 
 </html>

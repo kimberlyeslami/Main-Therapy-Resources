@@ -81,7 +81,7 @@
             </div>
         </div>
     </nav>
-    <h1> Primary - Sequence </h1>
+    <h1> Sequence </h1>
     <h3> Drag the pictures to re-arrange in order </h3>
 
     <div class="clearfix2">
@@ -101,23 +101,17 @@
     </div>
 
     <!-- Draggable DIV -->
-    <div id="mydiv">
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-        <div id="mydivheader"></div>
+    <div id="mydiv5">
         <p><img src="../../../../images/girlOpeningPresent.png" alt="A Girl opening the presents" width="390" height="284"></p>
     </div>
 
     <!-- Draggable DIV -->
-    <div id="mydiv2">
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-        <div id="mydivheader2"></div>
+    <div id="mydiv4">
         <p><img src="../../../../images/girlRecievingPresent.png" alt="A Girl recieving present" width="390" height="284"></p>
     </div>
 
     <!-- Draggable DIV -->
     <div id="mydiv3">
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-        <div id="mydivheader2"></div>
         <p><img src="../../../../images/girlOpenedPresent.png" alt="The present was a dog and she was happy about it" width="390" height="284"></p>
     </div>
 
@@ -134,7 +128,9 @@
 
         <script>
             // Make the DIV element draggable:
-            dragElement(document.getElementById("mydiv"));
+            dragElement(document.getElementById("mydiv3"));
+            dragElement(document.getElementById("mydiv4"));
+            dragElement(document.getElementById("mydiv5"));
 
             function dragElement(elmnt) {
                 var pos1 = 0,

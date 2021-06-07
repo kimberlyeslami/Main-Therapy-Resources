@@ -39,56 +39,40 @@ p {
 
 #mydiv {
     position: absolute;
-    left: 1000px;
-    bottom: 20px;
-    z-index: 9;
-}
-
-#mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 9;
-    background-color: #2196f3;
-    color: #fff;
+    left: 800px;
+    bottom: 0px;
+    z-index: 10;
 }
 
 #mydiv2 {
     position: absolute;
-    z-index: 9;
-    left: 200px;
-    bottom: 20px;
-}
-
-#mydivheader2 {
-    padding: 10px;
-    cursor: move;
     z-index: 10;
-    background-color: #2196f3;
-    color: #fff;
+    left: 300px;
+    bottom: 0px;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 #mydiv3 {
     position: absolute;
-    z-index: 9;
-    left: 600px;
-    bottom: 20px;
-}
-
-#mydivheader3 {
-    padding: 10px;
-    cursor: move;
     z-index: 10;
-    background-color: #2196f3;
-    color: #fff;
+    left: 100px;
+    bottom: 0px;
 }
 
-* {
-    box-sizing: border-box;
+#mydiv4 {
+    position: absolute;
+    z-index: 10;
+    left: 900px;
+    bottom: 0px;
 }
+
+#mydiv5 {
+    position: absolute;
+    z-index: 10;
+    left: 500px;
+    bottom:0px;
+}
+
 
 
 /* (A) 3 COLUMNS ON BIG SCREENS */
@@ -146,11 +130,12 @@ p {
 
 .box {
     float: left;
-    width: 30%;
-    padding: 3.125rem;
-    height: 21.875rem;
+    width: 45%;
+    padding: 10px;
+    height: 300px;
     margin: 20px;
 }
+
 
 .clearfix::after {
     content: "";
@@ -191,13 +176,13 @@ p {
 }
 
 #kickingfootball {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 450px;
 }
 
 #ballinpond {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 450px;
 }
 
 #teddy2 {
@@ -603,13 +588,13 @@ p {
 
 #alexstoryquestions {
     margin: 20px;
-    background-color: rgb(173, 232, 255);
+    background-color: rgb(255, 255, 191);
 }
 
 .dot {
     height: 200px;
     width: 250px;
-    background-color: rgb(126, 247, 252);
+    background-color: rgb(255, 255, 191);
     border-radius: 50%;
     display: inline-block;
     margin: 10px;
@@ -627,9 +612,13 @@ label {
     font-size: 19px;
 }
 
+#textarea{
+    font-size: 24px;
+}
 #answerbox {
     margin: 20px;
     padding: auto;
+ 
 }
 
 .form-label {

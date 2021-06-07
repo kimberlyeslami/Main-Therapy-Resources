@@ -1,1292 +1,641 @@
 h3 {
-  text-align: center;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
 }
 
 p {
-  text-align: center;
+    text-align: center;
+}
+
+.table-success {
+  background-color: Green;
+}
+
+#CS {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cslinks {
+    font-size: 18px;
+    text-align: center;
+}
+
+#csthemedlinks {
+    font-size: 18px;
+    text-align: center;
+}
+
+#CSThemed {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #mydiv {
-  position: absolute;
-  left: 1000px;
-  bottom: 20px;
-  z-index: 9;
+    position: absolute;
+    left: 1000px;
+    bottom: 20px;
+    z-index: 9;
 }
 
 #mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 9;
-  background-color: #2196f3;
-  color: #fff;
+    padding: 10px;
+    cursor: move;
+    z-index: 9;
+    background-color: #2196f3;
+    color: #fff;
 }
 
 #mydiv2 {
-  position: absolute;
-  z-index: 9;
-  left: 200px;
-  bottom: 20px;
+    position: absolute;
+    z-index: 9;
+    left: 200px;
+    bottom: 20px;
 }
 
 #mydivheader2 {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196f3;
-  color: #fff;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196f3;
+    color: #fff;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #mydiv3 {
-  position: absolute;
-  z-index: 9;
-  left: 600px;
-  bottom: 20px;
+    position: absolute;
+    z-index: 9;
+    left: 600px;
+    bottom: 20px;
 }
 
 #mydivheader3 {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196f3;
-  color: #fff;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196f3;
+    color: #fff;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* (A) 3 COLUMNS ON BIG SCREENS */
+
 .flexWrap {
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-.flexCol {
-  box-sizing: border-box;
-  padding: 10px;
-  width: 33.3%;
-  background: #ffffff;
-}
-/* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
-@media only screen and (max-width: 768px) {
-  .flexWrap {
-    flex-wrap: wrap;
-  }
-  .flexCol {
+    display: flex;
     width: 100%;
-  }
+    text-align: center;
 }
 
+.flexCol {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 33.3%;
+    background: #ffffff;
+}
+
+
+/* HAHAHAHAHA */
+
+.align-text-top {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
+
+@media only screen and (max-width: 768px) {
+    .flexWrap {
+        flex-wrap: wrap;
+    }
+    .flexCol {
+        width: 100%;
+    }
+}
+
+
 /* ---- Slider ----*/
+
 .carousel-item {
-  height: 900px;
-  width: 900px;
-  background: #777;
-  position: relative;
-  background-position: center;
-  background-size: cover;
+    height: 900px;
+    width: 900px;
+    background: #777;
+    position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
-  position: absolute;
-  height: inherit;
-  width: inherit;
+    position: absolute;
+    height: inherit;
+    width: inherit;
 }
 
 .box {
-  float: left;
-  width: 30%;
-  padding: 3.125rem;
-  height: 21.875rem;
-  margin: 20px;
+    float: left;
+    width: 30%;
+    padding: 3.125rem;
+    height: 21.875rem;
+    margin: 20px;
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .box2 {
-  float: left;
-  width: 30%;
-  padding: 3.125rem;
-  height: 21.875rem;
-  margin: 20px;
+    float: left;
+    width: 30%;
+    padding: 3.125rem;
+    height: 21.875rem;
+    margin: 20px;
 }
 
 .clearfix2::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#kickingfootball{
-  height: 300px;
-  width: 500px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
-#ballinpond{
-  height: 300px;
-  width: 500px;
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #2D444A;
+    color: floralwhite;
 }
+
+.footer {
+    background-color: #2D444A;
+    margin: 0px auto;
+    padding: 30px 0px 30px 0px;
+    color: white;
+    min-height: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: inherit;
+}
+
+#kickingfootball {
+    height: 300px;
+    width: 500px;
+}
+
+#ballinpond {
+    height: 300px;
+    width: 500px;
+}
+
+#teddy2 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option1 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option2 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option3 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option4 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option5 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option6 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option7 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option8 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option9 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option10 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option11 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option12 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option13 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option14 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option15 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option16 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option17 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option18 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option19 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option20 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option21 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option22 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option23 {
+    position: absolute;
+    z-index: 9;
+}
+
+#option24 {
+    position: absolute;
+    z-index: 9;
+}
+
 @media (max-width: 575.98px) {
-  #elephant {
-    height: 100px;
-    width: 100px;
-  }
-  #teddy {
-    height: 100px;
-    width: 100px;
-  }
-  #elephantPlate {
-    height: 100px;
-    width: 100px;
-  }
-  #teddyPlate {
-    height: 100px;
-    width: 100px;
-  }
-  #option1 {
-    position: absolute;
-    left: 150px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    left: 150px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    left: 150px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 150px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    left: 150px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    left: 150px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 10px;
-    left: 200px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 20px;
-    left: 250px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 30px;
-    left: 300px;
-    top: 500px;
-    z-index: 9;
-  }
+    #elephant {
+        height: 100px;
+        width: 100px;
+    }
+    #teddy {
+        height: 100px;
+        width: 100px;
+    }
+    #elephantPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #teddyPlate {
+        height: 100px;
+        width: 100px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 60px;
+        width: 60px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #elephant {
-    height: 135px;
-    width: 135px;
-  }
-  #teddy {
-    height: 135px;
-    width: 135px;
-  }
-  #elephantPlate {
-    height: 135px;
-    width: 135px;
-  }
-  #teddyPlate {
-    height: 135px;
-    width: 135px;
-  }
-  #option1 {
-    position: absolute;
-    left: 175px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    left: 175px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    left: 175px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 175px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    left: 175px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    left: 175px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 10px;
-    left: 225px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 20px;
-    left: 275px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 30px;
-    left: 325px;
-    top: 500px;
-    z-index: 9;
-  }
+    #elephant {
+        height: 135px;
+        width: 135px;
+    }
+    #teddy {
+        height: 135px;
+        width: 135px;
+    }
+    #elephantPlate {
+        height: 135px;
+        width: 135px;
+    }
+    #teddyPlate {
+        height: 135px;
+        width: 135px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 70px;
+        width: 70px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #elephant {
-    height: 165px;
-    width: 165px;
-  }
-  #teddy {
-    height: 165px;
-    width: 165px;
-  }
-  #elephantPlate {
-    height: 165px;
-    width: 165px;
-  }
-  #teddyPlate {
-    height: 165px;
-    width: 165px;
-  }
-  #option1 {
-    position: absolute;
-    left: 200px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 145px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    left: 200px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 210px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    left: 200px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 275px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 200px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 350px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    left: 200px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    left: 200px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 10px;
-    left: 300px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 20px;
-    left: 400px;
-    top: 500px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 30px;
-    left: 500px;
-    top: 500px;
-    z-index: 9;
-  }
+    #elephant {
+        height: 165px;
+        width: 165px;
+    }
+    #teddy {
+        height: 165px;
+        width: 165px;
+    }
+    #elephantPlate {
+        height: 165px;
+        width: 165px;
+    }
+    #teddyPlate {
+        height: 165px;
+        width: 165px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 75px;
+        width: 75px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #elephant {
-    height: 200px;
-    width: 200px;
-  }
-  #teddy {
-    height: 200px;
-    width: 200px;
-  }
-  #elephantPlate {
-    height: 200px;
-    width: 200px;
-  }
-  #teddyPlate {
-    height: 200px;
-    width: 200px;
-  }
-  #option1 {
-    position: absolute;
-    left: 300px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 375px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 450px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 525px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    padding-left: 40px;
-    left: 600px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 50px;
-    left: 675px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    left: 300px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 10px;
-    left: 375px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    padding-left: 20px;
-    left: 450px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 30px;
-    left: 525px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 40px;
-    left: 600px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 50px;
-    left: 675px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 300px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 375px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 450px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 525px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    padding-left: 40px;
-    left: 600px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 50px;
-    left: 675px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    left: 300px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 10px;
-    left: 375px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    padding-left: 20px;
-    left: 450px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 30px;
-    left: 525px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 40px;
-    left: 600px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 50px;
-    left: 675px;
-    top: 550px;
-    z-index: 9;
-  }
+    #elephant {
+        height: 200px;
+        width: 200px;
+    }
+    #teddy {
+        height: 200px;
+        width: 200px;
+    }
+    #elephantPlate {
+        height: 200px;
+        width: 200px;
+    }
+    #teddyPlate {
+        height: 200px;
+        width: 200px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  #elephant {
-    height: 225px;
-    width: 225px;
-  }
-  #teddy {
-    height: 225px;
-    width: 225px;
-  }
-  #elephantPlate {
-    height: 225px;
-    width: 225px;
-  }
-  #teddyPlate {
-    height: 225px;
-    width: 225px;
-  }
-  #option1 {
-    position: absolute;
-    left: 300px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 400px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 500px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 600px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    padding-left: 40px;
-    left: 700px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 50px;
-    left: 800px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    left: 300px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 10px;
-    left: 400px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    padding-left: 20px;
-    left: 500px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 30px;
-    left: 600px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 40px;
-    left: 700px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 50px;
-    left: 800px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 300px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 400px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 500px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 600px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    padding-left: 40px;
-    left: 700px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 50px;
-    left: 800px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    left: 300px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 10px;
-    left: 400px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    padding-left: 20px;
-    left: 500px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 30px;
-    left: 600px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 40px;
-    left: 700px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 50px;
-    left: 800px;
-    top: 550px;
-    z-index: 9;
-  }
+    #elephant {
+        height: 255px;
+        width: 255px;
+    }
+    #teddy {
+        height: 255px;
+        width: 255px;
+    }
+    #elephantPlate {
+        height: 255px;
+        width: 255px;
+    }
+    #teddyPlate {
+        height: 255px;
+        width: 255px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media (min-width: 1400px) {
-  #elephant {
-    height: 225px;
-    width: 225px;
-  }
-  #teddy {
-    height: 225px;
-    width: 225px;
-  }
-  #elephantPlate {
-    height: 225px;
-    width: 225px;
-  }
-  #teddyPlate {
-    height: 225px;
-    width: 225px;
-  }
-  #option1 {
-    position: absolute;
-    left: 500px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option2 {
-    position: absolute;
-    padding-left: 10px;
-    left: 600px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option3 {
-    position: absolute;
-    padding-left: 20px;
-    left: 700px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option4 {
-    position: absolute;
-    padding-left: 30px;
-    left: 800px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option5 {
-    position: absolute;
-    padding-left: 40px;
-    left: 900px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option6 {
-    position: absolute;
-    padding-left: 50px;
-    left: 1000px;
-    top: 175px;
-    z-index: 9;
-  }
-  #option7 {
-    position: absolute;
-    left: 500px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option8 {
-    position: absolute;
-    padding-left: 10px;
-    left: 600px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option9 {
-    position: absolute;
-    padding-left: 20px;
-    left: 700px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option10 {
-    position: absolute;
-    padding-left: 30px;
-    left: 800px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option11 {
-    position: absolute;
-    padding-left: 40px;
-    left: 900px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option12 {
-    position: absolute;
-    padding-left: 50px;
-    left: 1000px;
-    top: 300px;
-    z-index: 9;
-  }
-  #option13 {
-    position: absolute;
-    left: 500px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option14 {
-    position: absolute;
-    padding-left: 10px;
-    left: 600px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option15 {
-    position: absolute;
-    padding-left: 20px;
-    left: 700px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option16 {
-    position: absolute;
-    padding-left: 30px;
-    left: 800px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option17 {
-    position: absolute;
-    padding-left: 40px;
-    left: 900px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option18 {
-    position: absolute;
-    padding-left: 50px;
-    left: 1000px;
-    top: 425px;
-    z-index: 9;
-  }
-  #option19 {
-    position: absolute;
-    left: 500px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option20 {
-    position: absolute;
-    padding-left: 10px;
-    left: 600px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option21 {
-    position: absolute;
-    padding-left: 20px;
-    left: 700px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option22 {
-    position: absolute;
-    padding-left: 30px;
-    left: 800px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option23 {
-    position: absolute;
-    padding-left: 40px;
-    left: 900px;
-    top: 550px;
-    z-index: 9;
-  }
-  #option24 {
-    position: absolute;
-    padding-left: 50px;
-    left: 1000px;
-    top: 550px;
-    z-index: 9;
-  }
-}
-
-#option1header,
-#option2header,
-#option3header,
-#option4header,
-#option5header,
-#option6header,
-#option7header,
-#option8header,
-#option9header,
-#option10header,
-#option11header,
-#option12header,
-#option13header,
-#option14header,
-#option15header,
-#option16header,
-#option17header,
-#option18header,
-#option19header,
-#option20header,
-#option21header,
-#option22header,
-#option23header,
-#option24header {
-  padding: 10px;
-  cursor: move;
-  z-index: 9;
-  background-color: #2196f3;
-  color: #fff;
+    #elephant {
+        height: 250px;
+        width: 250px;
+    }
+    #teddy {
+        height: 250px;
+        width: 250px;
+    }
+    #elephantPlate {
+        height: 225px;
+        width: 225px;
+    }
+    #teddyPlate {
+        height: 225px;
+        width: 225px;
+    }
+    #brb,
+    #bra,
+    #bric,
+    #brc,
+    #srb,
+    #sra,
+    #sric,
+    #src,
+    #bgb,
+    #bga,
+    #bgic,
+    #bgc,
+    #sga,
+    #sgb,
+    #sgc,
+    #sgic,
+    #bya,
+    #byc,
+    #byic,
+    #byb,
+    #syb,
+    #sya,
+    #syc,
+    #syic {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 #alexstoryquestions {
-  margin: 20px;
-  background-color: rgb(173, 232, 255);
+    margin: 20px;
+    background-color: rgb(173, 232, 255);
 }
+
 .dot {
-  height: 200px;
-  width: 250px;
-  background-color: rgb(126, 247, 252);
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
+    height: 200px;
+    width: 250px;
+    background-color: rgb(126, 247, 252);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
 }
 
 input[type="text"] {
-  background: rgba(0, 0, 0, 0);
-  border: none;
-  outline: none;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
 }
 
 label {
-  text-align: center;
-  float: center;
-  font-size: 19px;
+    text-align: center;
+    float: center;
+    font-size: 19px;
 }
+
 #answerbox {
-  margin: 20px;
-  padding: auto;
+    margin: 20px;
+    padding: auto;
 }
-.form-label{
-  font-size: 20px;
+
+.form-label {
+    font-size: 20px;
 }
-.form-control{
-  font-size: 18px;
+
+.form-control {
+    font-size: 18px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,26 +10,28 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </head>
 <!-- Testing some fonts using google fonts css style -->
 <style>
-body{
-  font-family: 'Patrick Hand', cursive;
-  letter-spacing: 2px;
-}
+    body {
+      font-family: 'Roboto Mono', monospace;
+      font-family: 'Ubuntu', sans-serif;
+    }
 </style>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> <img src="./images/UL-Logo.jpg" alt="" width="100" height="50" class="d-inline-block align-text-top"> </a>
+            <a class="navbar-brand" href="index.html"> <img src="./images/UL-Logo2.png" alt="" class="d-inline-block align-text-top"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -36,7 +39,7 @@ body{
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Early Years </a>
+                Early Years </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="eyCS.html">Colourful Semantics</a></li>
                             <li><a class="dropdown-item" href="eyPrepositions.html">Prepositions</a></li>
@@ -48,7 +51,7 @@ body{
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Primary </a>
+                Primary </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="primaryKwFiM.html">Key words/Following instructions/Memory</a></li>
                             <li><a class="dropdown-item" href="primarycs.html">Colourful Semantics</a></li>
@@ -56,11 +59,12 @@ body{
                             <li><a class="dropdown-item" href="primarySeq.html">Sequence</a></li>
                             <li><a class="dropdown-item" href="primaryNarrative.html">Narrative</a></li>
                             <li><a class="dropdown-item" href="primarySemLinkCatWm.html">Semantic Links/Categories/Word Maps</a></li>
+                            <li><a class="dropdown-item" href="primarytense.html">Tense</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Secondary </a>
+                Secondary </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#primaryKwFiM.html">Key words/Following instructions/Memory</a></li>
                             <li><a class="dropdown-item" href="#primarycs.html">Colourful Semantics</a></li>
@@ -73,7 +77,7 @@ body{
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Adult </a>
+                Adult </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#primaryKwFiM.html">Key words/Following instructions/Memory</a></li>
                             <li><a class="dropdown-item" href="#primarycs.html">Colourful Semantics</a></li>
@@ -92,21 +96,78 @@ body{
             </div>
         </div>
     </nav>
-    <div>
-      <h1><center>Speech Therapy Resources</center></h1>
-<!--      <a><img src="images/UL-logo.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%"> </a> -->
-    </div>
-      <section>
+    <header class="jumbotron">
+        <div>
+            <h1>
+                <center>Speech Therapy Resources</center>
+            </h1>
+            <!--      <a><img src="images/UL-logo.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%"> </a> -->
+        </div>
+    </header>
+    <section>
         <p> Hello! This website is designed to have interactive resources for speech therapy for children of all ages. </p>
-      </section>
-      <section>
+    </section>
+
+    <section>
         <p>Most Popular Resources</p>
         <div class="flexWrap">
-          <div class="flexCol">keening</div>
-          <div class="flexCol">Sunder</div>
-          <div class="flexCol">Wraithguard</div>
+            <div class="flexCol">keening
+                <div class="">
+                    <img src="https://static.wikia.nocookie.net/skyrim_gamepedia/images/b/b2/Keening.png/revision/latest?cb=20120416212704" width="700px">
+                </div>
+            </div>
+            <div class="flexCol">Sunder
+                <div class="">
+                    <img src="http://img2.wikia.nocookie.net/__cb20120612190013/elderscrolls/images/6/60/Sunder.png" width="650px">
+                </div>
+            </div>
+            <div class="flexCol">Wraithguard
+                <div class="">
+                    <img src="https://img4.wikia.nocookie.net/__cb20120612194933/elderscrolls/images/8/89/Wraithguard.png" width="550px">
+                </div>
+            </div>
+
         </div>
-      </section>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 justify-content-center"><a href="./index.html"></a>Home</div>
+          <div class="col-3 justify-content-center">
+            <ul>
+              <b><li>Early Years</li></b>
+              <li><a style="color:white" href="eyCS.html">Colourful Semantics</a></li>
+              <li><a style="color:white" href="eyPrepositions.html">Prepositions</a></li>
+              <li><a style="color:white" href="eyConcept.html">Concept</a></li>
+              <li><a style="color:white" href="eyVocab.html">Vocabulary</a></li>
+            </ul>
+          </div>
+          <div class="col-3 justify-content-center">
+            <ul>
+              <b><li>Primary</li></b>
+              <li><a style="color:white" href="primaryKwFiM.html">Keywords</a></li>
+              <li><a style="color:white" href="primarycs.html">Colourful Semantics</a></li>
+              <li><a style="color:white" href="primaryInfVerbRes.html">Inference</a></li>
+              <li><a style="color:white" href="primarySeq.html">Sequence</a></li>
+            </ul>
+          </div>
+          <div class="col-3 justify-content-center">
+            <ul>
+              <li>Need help, Contact us.</li>
+              <li>Send info to IT Support, they know everything.</li>
+              <br>
+              <li><i class="fa fa-phone fa-lg"></i>: Admirals Way, London, E14 9XL</li>
+              <li><i class="fa fa-phone fa-lg"></i>: 0207 536 929</li>
+              <li><i class="fa fa-envelope fa-lg"></i>: info@unlockinglanguage.co.uk</li>
+              <li><a style="color:white" href="https://www.facebook.com/UnlockingLanguage"><i class="fa fa-facebook fa-lg"></i></a>
+                  <a style="color:white" href="https://www.linkedin.com/company/unlocking-language"><i class="fa fa-linkedin fa-lg"></i></a>
+                  <a style="color:white" href="https://twitter.com/ULspeechtherapy"<i class="fa fa-twitter fa-lg"></i><a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>

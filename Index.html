@@ -23,6 +23,15 @@
       font-family: 'Roboto Mono', monospace;
       font-family: 'Ubuntu', sans-serif;
     }
+
+    .btn:hover {
+        color: white;
+        opacity: 60%;
+    }
+
+    .flexCol{
+        margin: 6px;
+    }
 </style>
 
 <body>
@@ -103,34 +112,44 @@
             </h1>
             <!--      <a><img src="images/UL-logo.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%"> </a> -->
         </div>
+        <p> Hello! This website is designed to have interactive resources for speech therapy for children of all ages. </p>
     </header>
     <section>
-        <p> Hello! This website is designed to have interactive resources for speech therapy for children of all ages. </p>
-    </section>
-
-    <section>
-        <p>Most Popular Resources</p>
-        <div class="flexWrap">
-            <div class="flexCol">keening
+        <p style="font-size: 32px; font-family:cursive;">Most Popular Resources</p>
+        <div class="flexWrap" >
+            <div class="flexCol" style="background-color: bisque;">
                 <div class="">
-                    <img src="https://static.wikia.nocookie.net/skyrim_gamepedia/images/b/b2/Keening.png/revision/latest?cb=20120416212704" width="700px">
+                    <button id="resource1" name="resource1" type="button" onclick="window.location.href='./eyCS.html';" class="btn">
+                        <div style="font-size: 32px;">
+                            Colourful Semantics - Early Years
+                        </div>
+                        <img src="images/eycsmenu.png" width="580px">
+                    </button>
                 </div>
             </div>
-            <div class="flexCol">Sunder
+            <div class="flexCol" style="background-color: rgb(255, 220, 176);">
                 <div class="">
-                    <img src="http://img2.wikia.nocookie.net/__cb20120612190013/elderscrolls/images/6/60/Sunder.png" width="650px">
+                    <button id="resource1" name="resource2" type="button" onclick="window.location.href='./primarycs.html';" class="btn">
+                        <div style="font-size: 32px;">
+                            Colourful Semantics - Primary
+                        </div>
+                        <img src="images/primarycsmenu.png" width="580px">
+                    </button>
                 </div>
             </div>
-            <div class="flexCol">Wraithguard
-                <div class="">
-                    <img src="https://img4.wikia.nocookie.net/__cb20120612194933/elderscrolls/images/8/89/Wraithguard.png" width="550px">
-                </div>
+            <div class="flexCol" style="background-color: rgb(250, 208, 157);">
+                    <button id="resource1" name="resource3" type="button" onclick="window.location.href='./eyPrepositions.html';" class="btn">
+                        <div style="font-size: 32px;">
+                            Prepositions - Early Years
+                        </div>
+                        <img src="images/eyprepmenu.png" width="580px">
+                    </button>
             </div>
 
         </div>
     </section>
     <footer class="footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-3 justify-content-center"><a href="./index.html"></a>Home</div>
           <div class="col-3 justify-content-center">
@@ -156,7 +175,7 @@
               <li>Need help, Contact us.</li>
               <li>Send info to IT Support, they know everything.</li>
               <br>
-              <li><i class="fa fa-phone fa-lg"></i>: Admirals Way, London, E14 9XL</li>
+              <li><i class="fa fa-location-arrow fa-lg"></i>: Admirals Way, London, E14 9XL</li>
               <li><i class="fa fa-phone fa-lg"></i>: 0207 536 929</li>
               <li><i class="fa fa-envelope fa-lg"></i>: info@unlockinglanguage.co.uk</li>
               <li><a style="color:white" href="https://www.facebook.com/UnlockingLanguage"><i class="fa fa-facebook fa-lg"></i></a>

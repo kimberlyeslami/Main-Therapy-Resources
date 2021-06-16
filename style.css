@@ -14,24 +14,24 @@ p {
   background-color: Green;
 }
 
-#CS {
+#tabletitle {
     font-size: 44px;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
 }
 
-#cslinks {
+#tablelinks {
     font-size: 18px;
     text-align: center;
 }
 
-#csthemedlinks {
+#tablethemedlinks {
     font-size: 18px;
     text-align: center;
 }
 
-#CSThemed {
+#tableThemed {
     font-size: 44px;
     font-weight: bold;
     text-align: center;

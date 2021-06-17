@@ -1,630 +1,620 @@
-h3 {
-    text-align: center;
-}
-
-h5 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-.table-success {
-  background-color: Green;
-}
-
-#tabletitle {
-    font-size: 44px;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-}
-
-#tablelinks {
-    font-size: 18px;
-    text-align: center;
-}
-
-#tablethemedlinks {
-    font-size: 18px;
-    text-align: center;
-}
-
-#tableThemed {
-    font-size: 44px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#mydiv {
-    position: absolute;
-    left: 800px;
-    bottom: 0px;
-    z-index: 10;
-}
-
-#mydiv2 {
-    position: absolute;
-    z-index: 10;
-    left: 300px;
-    bottom: 0px;
-}
-
-
-#mydiv3 {
-    position: absolute;
-    z-index: 10;
-    left: 100px;
-    bottom: 0px;
-}
-
-#mydiv4 {
-    position: absolute;
-    z-index: 10;
-    left: 900px;
-    bottom: 0px;
-}
-
-#mydiv5 {
-    position: absolute;
-    z-index: 10;
-    left: 500px;
-    bottom:0px;
-}
-
-
-
-/* (A) 3 COLUMNS ON BIG SCREENS */
-
-.flexWrap {
-    display: flex;
-    width: 100%;
-    text-align: center;
-}
-
-.flexCol {
-    box-sizing: border-box;
-    padding: 10px;
-    width: 33.3%;
-    background: #ffffff;
-}
-
-
-/* HAHAHAHAHA */
-
-.align-text-top {
-    width: 60px;
-    height: 60px;
-}
-
-
-/* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
-
-@media only screen and (max-width: 768px) {
-    .flexWrap {
-        flex-wrap: wrap;
-    }
-    .flexCol {
-        width: 100%;
-    }
-}
-
-
-/* ---- Slider ----*/
-
-.carousel-item {
-    height: 900px;
-    width: 900px;
-    background: #777;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-}
-
-.container {
-    position: absolute;
-    height: inherit;
-    width: inherit;
-}
-
-.box {
-    float: left;
-    width: 45%;
-    padding: 10px;
-    height: 300px;
-    margin: 20px;
-}
-
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.box2 {
-    float: left;
-    width: 30%;
-    padding: 3.125rem;
-    height: 21.875rem;
-    margin: 20px;
-}
-
-.clearfix2::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.jumbotron {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background: #2D444A;
-    color: floralwhite;
-}
-
-.footer {
-    background-color: #2D444A;
-    margin: 0px auto;
-    padding: 30px 0px 30px 0px;
-    color: white;
-    min-height: 100%;
-    height: 300px;
-    position: relative;
-    margin-bottom: inherit;
-}
-
-#kickingfootball {
-    height: 250px;
-    width: 450px;
-}
-
-#ballinpond {
-    height: 250px;
-    width: 450px;
-}
-
-#teddy2 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option1 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option2 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option3 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option4 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option5 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option6 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option7 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option8 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option9 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option10 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option11 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option12 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option13 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option14 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option15 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option16 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option17 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option18 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option19 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option20 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option21 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option22 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option23 {
-    position: absolute;
-    z-index: 9;
-}
-
-#option24 {
-    position: absolute;
-    z-index: 9;
-}
-
-@media (max-width: 575.98px) {
-    #elephant {
-        height: 100px;
-        width: 100px;
-    }
-    #teddy {
-        height: 100px;
-        width: 100px;
-    }
-    #elephantPlate {
-        height: 100px;
-        width: 100px;
-    }
-    #teddyPlate {
-        height: 100px;
-        width: 100px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 60px;
-        width: 60px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    #elephant {
-        height: 135px;
-        width: 135px;
-    }
-    #teddy {
-        height: 135px;
-        width: 135px;
-    }
-    #elephantPlate {
-        height: 135px;
-        width: 135px;
-    }
-    #teddyPlate {
-        height: 135px;
-        width: 135px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 70px;
-        width: 70px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #elephant {
-        height: 165px;
-        width: 165px;
-    }
-    #teddy {
-        height: 165px;
-        width: 165px;
-    }
-    #elephantPlate {
-        height: 165px;
-        width: 165px;
-    }
-    #teddyPlate {
-        height: 165px;
-        width: 165px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 75px;
-        width: 75px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    #elephant {
-        height: 200px;
-        width: 200px;
-    }
-    #teddy {
-        height: 200px;
-        width: 200px;
-    }
-    #elephantPlate {
-        height: 200px;
-        width: 200px;
-    }
-    #teddyPlate {
-        height: 200px;
-        width: 200px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 80px;
-        width: 80px;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-    #elephant {
-        height: 255px;
-        width: 255px;
-    }
-    #teddy {
-        height: 255px;
-        width: 255px;
-    }
-    #elephantPlate {
-        height: 255px;
-        width: 255px;
-    }
-    #teddyPlate {
-        height: 255px;
-        width: 255px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 80px;
-        width: 80px;
-    }
-}
-
-@media (min-width: 1400px) {
-    #elephant {
-        height: 250px;
-        width: 250px;
-    }
-    #teddy {
-        height: 250px;
-        width: 250px;
-    }
-    #elephantPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #teddyPlate {
-        height: 225px;
-        width: 225px;
-    }
-    #brb,
-    #bra,
-    #bric,
-    #brc,
-    #srb,
-    #sra,
-    #sric,
-    #src,
-    #bgb,
-    #bga,
-    #bgic,
-    #bgc,
-    #sga,
-    #sgb,
-    #sgc,
-    #sgic,
-    #bya,
-    #byc,
-    #byic,
-    #byb,
-    #syb,
-    #sya,
-    #syc,
-    #syic {
-        height: 80px;
-        width: 80px;
-    }
-}
-
-#alexstoryquestions {
-    margin: 20px;
-    background-color: rgb(255, 255, 191);
-}
-
-.dot {
-    height: 200px;
-    width: 250px;
-    background-color: rgb(255, 255, 191);
-    border-radius: 50%;
-    display: inline-block;
-    margin: 10px;
-}
-
-input[type="text"] {
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    outline: none;
-}
-
-label {
-    text-align: center;
-    float: center;
-    font-size: 19px;
-}
-
-#textarea{
-    font-size: 24px;
-}
-#answerbox {
-    margin: 20px;
-    padding: auto;
+ h5 {
+     text-align: center;
+ }
  
-}
-
-.form-label {
-    font-size: 20px;
-}
-
-.form-control {
-    font-size: 18px;
-}
+ p {
+     text-align: center;
+     font-size: 24px;
+ }
+ 
+ .table-success {
+     background-color: Green;
+ }
+ 
+ #tabletitle {
+     font-size: 44px;
+     font-weight: bold;
+     text-align: center;
+     color: #ffffff;
+ }
+ 
+ #tablelinks {
+     font-size: 18px;
+     text-align: center;
+ }
+ 
+ #tablethemedlinks {
+     font-size: 18px;
+     text-align: center;
+ }
+ 
+ #tableThemed {
+     font-size: 44px;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ #mydiv {
+     position: absolute;
+     left: 800px;
+     bottom: 0px;
+     z-index: 10;
+ }
+ 
+ #mydiv2 {
+     position: absolute;
+     z-index: 10;
+     left: 300px;
+     bottom: 0px;
+ }
+ 
+ #mydiv3 {
+     position: absolute;
+     z-index: 10;
+     left: 100px;
+     bottom: 0px;
+ }
+ 
+ #mydiv4 {
+     position: absolute;
+     z-index: 10;
+     left: 900px;
+     bottom: 0px;
+ }
+ 
+ #mydiv5 {
+     position: absolute;
+     z-index: 10;
+     left: 500px;
+     bottom: 0px;
+ }
+ /* (A) 3 COLUMNS ON BIG SCREENS */
+ 
+ .flexWrap {
+     display: flex;
+     width: 100%;
+     text-align: center;
+ }
+ 
+ .flexCol {
+     box-sizing: border-box;
+     padding: 10px;
+     width: 33.3%;
+     background: #ffffff;
+ }
+ /* HAHAHAHAHA */
+ 
+ .align-text-top {
+     width: 60px;
+     height: 60px;
+ }
+ /* (B) BREAK DOWN 1 COLUMN ON SMALL SCREENS */
+ 
+ @media only screen and (max-width: 768px) {
+     .flexWrap {
+         flex-wrap: wrap;
+     }
+     .flexCol {
+         width: 100%;
+     }
+ }
+ /* ---- Slider ----*/
+ 
+ .carousel-item {
+     height: 900px;
+     width: 900px;
+     background: #777;
+     position: relative;
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .container {
+     position: absolute;
+     height: inherit;
+     width: inherit;
+ }
+ 
+ .box {
+     float: left;
+     width: 45%;
+     padding: 10px;
+     height: 300px;
+     margin: 20px;
+ }
+ 
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ .box2 {
+     float: left;
+     width: 30%;
+     padding: 3.125rem;
+     height: 21.875rem;
+     margin: 20px;
+ }
+ 
+ .clearfix2::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ .jumbotron {
+     padding: 70px 30px 70px 30px;
+     margin: 0px auto;
+     background: #2D444A;
+     color: floralwhite;
+ }
+ 
+ .footer {
+     background-color: #2D444A;
+     margin: 0px auto;
+     padding: 30px 0px 30px 0px;
+     color: white;
+     min-height: 100%;
+     height: 300px;
+     position: relative;
+     margin-bottom: inherit;
+ }
+ 
+ #kickingfootball {
+     height: 250px;
+     width: 450px;
+ }
+ 
+ #ballinpond {
+     height: 250px;
+     width: 450px;
+ }
+ 
+ #teddy2 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option1 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option2 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option3 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option4 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option5 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option6 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option7 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option8 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option9 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option10 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option11 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option12 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option13 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option14 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option15 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option16 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option17 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option18 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option19 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option20 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option21 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option22 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option23 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ #option24 {
+     position: absolute;
+     z-index: 9;
+ }
+ 
+ @media (max-width: 575.98px) {
+     #elephant {
+         height: 100px;
+         width: 100px;
+     }
+     #teddy {
+         height: 100px;
+         width: 100px;
+     }
+     #elephantPlate {
+         height: 100px;
+         width: 100px;
+     }
+     #teddyPlate {
+         height: 100px;
+         width: 100px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 60px;
+         width: 60px;
+     }
+ }
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     #elephant {
+         height: 135px;
+         width: 135px;
+     }
+     #teddy {
+         height: 135px;
+         width: 135px;
+     }
+     #elephantPlate {
+         height: 135px;
+         width: 135px;
+     }
+     #teddyPlate {
+         height: 135px;
+         width: 135px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 70px;
+         width: 70px;
+     }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     #elephant {
+         height: 165px;
+         width: 165px;
+     }
+     #teddy {
+         height: 165px;
+         width: 165px;
+     }
+     #elephantPlate {
+         height: 165px;
+         width: 165px;
+     }
+     #teddyPlate {
+         height: 165px;
+         width: 165px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 75px;
+         width: 75px;
+     }
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     #elephant {
+         height: 200px;
+         width: 200px;
+     }
+     #teddy {
+         height: 200px;
+         width: 200px;
+     }
+     #elephantPlate {
+         height: 200px;
+         width: 200px;
+     }
+     #teddyPlate {
+         height: 200px;
+         width: 200px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 80px;
+         width: 80px;
+     }
+ }
+ 
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+     #elephant {
+         height: 255px;
+         width: 255px;
+     }
+     #teddy {
+         height: 255px;
+         width: 255px;
+     }
+     #elephantPlate {
+         height: 255px;
+         width: 255px;
+     }
+     #teddyPlate {
+         height: 255px;
+         width: 255px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 80px;
+         width: 80px;
+     }
+ }
+ 
+ @media (min-width: 1400px) {
+     #elephant {
+         height: 250px;
+         width: 250px;
+     }
+     #teddy {
+         height: 250px;
+         width: 250px;
+     }
+     #elephantPlate {
+         height: 225px;
+         width: 225px;
+     }
+     #teddyPlate {
+         height: 225px;
+         width: 225px;
+     }
+     #brb,
+     #bra,
+     #bric,
+     #brc,
+     #srb,
+     #sra,
+     #sric,
+     #src,
+     #bgb,
+     #bga,
+     #bgic,
+     #bgc,
+     #sga,
+     #sgb,
+     #sgc,
+     #sgic,
+     #bya,
+     #byc,
+     #byic,
+     #byb,
+     #syb,
+     #sya,
+     #syc,
+     #syic {
+         height: 80px;
+         width: 80px;
+     }
+ }
+ 
+ #alexstoryquestions {
+     margin: 20px;
+     background-color: rgb(255, 255, 191);
+ }
+ 
+ .dot {
+     height: 200px;
+     width: 250px;
+     background-color: rgb(255, 255, 191);
+     border-radius: 50%;
+     display: inline-block;
+     margin: 10px;
+ }
+ 
+ input[type="text"] {
+     background: rgba(0, 0, 0, 0);
+     border: none;
+     outline: none;
+ }
+ 
+ label {
+     text-align: center;
+     float: center;
+     font-size: 19px;
+ }
+ 
+ #textarea {
+     font-size: 24px;
+ }
+ 
+ #answerbox {
+     margin: 20px;
+     padding: auto;
+ }
+ 
+ .form-label {
+     font-size: 20px;
+ }
+ 
+ .form-control {
+     font-size: 18px;
+ }
+ 
+ #whoinput {
+     font-size: 28px;
+ }

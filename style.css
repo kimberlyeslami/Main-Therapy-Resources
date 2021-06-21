@@ -618,3 +618,10 @@
  #whoinput {
      font-size: 28px;
  }
+ 
+ #boxes {
+     position: absolute;
+     left: 520px;
+     bottom: 200px;
+     z-index: 10;
+ }

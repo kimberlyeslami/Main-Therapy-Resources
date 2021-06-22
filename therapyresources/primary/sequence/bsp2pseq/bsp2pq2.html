@@ -84,151 +84,36 @@
     <h1> Sequence </h1>
     <h3> Drag the pictures to re-arrange in order </h3>
 
-    <div class="clearfix2">
-        <div class="box2" style="background-color: palegreen;">
+    <div class="clearfix">
+        <div class="box" style="background-color: palegreen;">
             <h2>First</h2>
 
         </div>
-        <div class="box2" style="background-color:rgb(247, 237, 136)">
-            <h2>Next</h2>
-
-        </div>
-
-        <div class="box2" style="background-color:rgb(248, 188, 77)">
-            <h2>Then</h2>
+        <div class="box" style="background-color:rgb(247, 237, 136)">
+            <h2>Last</h2>
 
         </div>
     </div>
-
     <!-- Draggable DIV -->
-    <div id="mydiv5">
-        <p><img src="../../../../images/girlOpeningPresent.png" alt="A Girl opening the presents" width="390" height="284"></p>
+    <div id="mydiv">
+        <p><img src="../images/girlopeningcupboard.png" alt="A Girl in the kitchen opening the cupboard." height="250" width="450" id="openingcupboard"></p>
     </div>
-
     <!-- Draggable DIV -->
-    <div id="mydiv4">
-        <p><img src="../../../../images/girlRecievingPresent.png" alt="A Girl recieving present" width="390" height="284"></p>
+    <div id="mydiv2">
+        <p><img src="../images/spiderinthecupboard.png" alt="The girl saw a spider in the cupboard and got scared." height="250" width="450"></p>
     </div>
-
-    <!-- Draggable DIV -->
-    <div id="mydiv3">
-        <p><img src="../../../../images/girlOpenedPresent.png" alt="The present was a dog and she was happy about it" width="390" height="284"></p>
-    </div>
-
-
     <div class="position-relative">
-
         <div class="d-flex justify-content-between bd-highlight mb-2">
             <div class="p-2 bd-highlight">
-                <a href="primaryBspSeqPt2.html"> <button type="button" class="btn btn-outline-success">Back </button></a>
+                <a href="bsp2pq1text.html"> <button type="button" class="btn btn-outline-success">Back to Primary Sequence</button></a>
             </div>
-
-            <div class="p-2 bd-highlight"> <a href="primaryBspSeqQ2Pt2.html"><button type="button" class="btn btn-outline-success"> Continue</button></a></div>
+            <div class="p-2 bd-highlight"> <a href="bsp2pq2text.html"><button type="button" class="btn btn-outline-success"> Continue</button></a></div>
         </div>
 
         <script>
             // Make the DIV element draggable:
-            dragElement(document.getElementById("mydiv3"));
-            dragElement(document.getElementById("mydiv4"));
-            dragElement(document.getElementById("mydiv5"));
-
-            function dragElement(elmnt) {
-                var pos1 = 0,
-                    pos2 = 0,
-                    pos3 = 0,
-                    pos4 = 0;
-                if (document.getElementById(elmnt.id + "header")) {
-                    // if present, the header is where you move the DIV from:
-                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-                } else {
-                    // otherwise, move the DIV from anywhere inside the DIV:
-                    elmnt.onmousedown = dragMouseDown;
-                }
-
-                function dragMouseDown(e) {
-                    e = e || window.event;
-                    e.preventDefault();
-                    // get the mouse cursor position at startup:
-                    pos3 = e.clientX;
-                    pos4 = e.clientY;
-                    document.onmouseup = closeDragElement;
-                    // call a function whenever the cursor moves:
-                    document.onmousemove = elementDrag;
-                }
-
-                function elementDrag(e) {
-                    e = e || window.event;
-                    e.preventDefault();
-                    // calculate the new cursor position:
-                    pos1 = pos3 - e.clientX;
-                    pos2 = pos4 - e.clientY;
-                    pos3 = e.clientX;
-                    pos4 = e.clientY;
-                    // set the element's new position:
-                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-                }
-
-                function closeDragElement() {
-                    // stop moving when mouse button is released:
-                    document.onmouseup = null;
-                    document.onmousemove = null;
-                }
-            }
-        </script>
-
-        <script>
-            // Make the DIV element draggable:
+            dragElement(document.getElementById("mydiv"));
             dragElement(document.getElementById("mydiv2"));
-
-            function dragElement(elmnt) {
-                var pos1 = 0,
-                    pos2 = 0,
-                    pos3 = 0,
-                    pos4 = 0;
-                if (document.getElementById(elmnt.id + "header")) {
-                    // if present, the header is where you move the DIV from:
-                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-                } else {
-                    // otherwise, move the DIV from anywhere inside the DIV:
-                    elmnt.onmousedown = dragMouseDown;
-                }
-
-                function dragMouseDown(e) {
-                    e = e || window.event;
-                    e.preventDefault();
-                    // get the mouse cursor position at startup:
-                    pos3 = e.clientX;
-                    pos4 = e.clientY;
-                    document.onmouseup = closeDragElement;
-                    // call a function whenever the cursor moves:
-                    document.onmousemove = elementDrag;
-                }
-
-                function elementDrag(e) {
-                    e = e || window.event;
-                    e.preventDefault();
-                    // calculate the new cursor position:
-                    pos1 = pos3 - e.clientX;
-                    pos2 = pos4 - e.clientY;
-                    pos3 = e.clientX;
-                    pos4 = e.clientY;
-                    // set the element's new position:
-                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-                }
-
-                function closeDragElement() {
-                    // stop moving when mouse button is released:
-                    document.onmouseup = null;
-                    document.onmousemove = null;
-                }
-            }
-        </script>
-
-        <script>
-            // Make the DIV element draggable:
-            dragElement(document.getElementById("mydiv3"));
 
             function dragElement(elmnt) {
                 var pos1 = 0,

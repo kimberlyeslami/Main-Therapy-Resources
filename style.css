@@ -5,7 +5,7 @@
  
  p {
      text-align: center;
-     font-size: 24px;
+     font-size: 22px;
  }
  
  .table-success {
@@ -576,6 +576,40 @@
  #alexstoryquestions {
      margin: 20px;
      background-color: rgb(255, 255, 191);
+ }
+ 
+ #picture {
+     padding: 20px;
+ }
+ 
+ h4 {
+     padding: 10px;
+     padding-left: 20px;
+ }
+ 
+ #story {
+     width: 80%;
+     margin: auto;
+     display: block;
+     padding: 20px;
+ }
+ 
+ #levela {
+     background-color: #33d9b2;
+     color: white;
+     padding-top: 12px;
+ }
+ 
+ #levelb {
+     background-color: #34ace0;
+     color: white;
+     padding-top: 12px;
+ }
+ 
+ #levelc {
+     background-color: #ff5252;
+     color: white;
+     padding-top: 12px;
  }
  
  .dot {

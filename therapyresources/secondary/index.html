@@ -7,7 +7,7 @@
     <meta name="description" content="Speech Therapy Resources">
     <title>Therapy Resources | Home</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu&display=swap"
@@ -31,8 +31,9 @@
         padding: 0;
         font-size:18px;
         word-wrap:break-word !important;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        line-height: 32px;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 16px;
         color: #000000;
     }
     #containers{
@@ -49,7 +50,7 @@
         color: #8dff46;
     }
     nav {
-        background-color: #45b6a3;
+        background-color: #343a40;
     }
     nav ul {
         list-style: none;
@@ -58,13 +59,14 @@
         margin: 0;
     }
     nav ul li {
-        background-color: #45b6a3;
+        padding-top: 20px;
+        background-color: #343a40;
         display: inline-block;
     }
     nav a {
-        font-size: 20px;
+        font-size: 16px;
         color:#FFF;
-        line-height: 60px;
+        line-height: 40px;
         text-decoration: none;
         display: block;
         padding: 0 10px;
@@ -72,6 +74,7 @@
     nav a:hover { 
         background-color: #9dd8d8; 
     }
+
     nav ul ul {
         top: 60px;
         position:absolute;
@@ -95,15 +98,21 @@
     nav ul ul li {
         border: 1px solid white;
     }
-    li > a:after { content:' ▼'; }
-    li > a:only-child:after { content: ''; }    
+    li > a:after { content:' ▾'; }
+    li > a:only-child:after { content: ''; }  
+    
+    #boody{
+        background-color: white;
+    }
+    
 </style>
 
 <body>
 
-    <div id="containers">
-        <nav>
-            <ul>
+    <div id="containers container-fluid">
+        <nav class="">
+            <ul class="align-content-center">
+                <li><a class="navbar-brand" href="index.html" ><img src="../../images/UL-Logo2.png" alt="" class="d-inline-block align-text-top" ></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Early Years</a>
                     <ul>
@@ -127,11 +136,18 @@
                         <li><a href="#">Vocabulary</a></li>
                         <li><a href="#">Barrier Games</a></li>
                         <li><a href="#">WH Questions</a></li>
+                        <li><a href="#">I Sentences</a></li>
+                        <li><a href="#">Nursery Rhymes</a>
+                            <ul>
+                                <li><a href="£">Twinkle Twinkle</a></li>
+                                <li><a href="#">London Bridge</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="#">Primary</a>
                     <ul>
-                        <li><a href="#">Key words/Following instructions/Memory</a>
+                        <li><a href="#">Follow Instructions</a>
                             <ul>
                                 <li><a href="#">4 Key Words - Instructions</a></li>
                             </ul>
@@ -142,7 +158,7 @@
                                 <li><a href="#">Who??</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Inference/Verbal Reasoning</a>
+                        <li><a href="#">Inference</a>
                             <ul>
                                 <li> <a href="#">placement course</a></li>
                                 <li><a href="#">multi quest</a></li>
@@ -159,7 +175,7 @@
                                 <li><a href="#">Picture Scenes</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">SemanticLinks/Categories/WordMaps</a>
+                        <li><a href="#">SemanticLinks</a>
                             <ul>
                                 <li><a href="#">Word Maps</a></li>
                             </ul>

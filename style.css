@@ -69,6 +69,18 @@
      left: 500px;
      bottom: 0px;
  }
+ 
+ #mydiv10 {
+     position: absolute;
+     z-index: 9;
+     bottom: 0;
+ }
+ 
+ #mydiv11 {
+     position: absolute;
+     z-index: 9;
+     bottom: 0;
+ }
  /* (A) 3 COLUMNS ON BIG SCREENS */
  
  .flexWrap {
@@ -710,67 +722,82 @@
  .dropdown:hover .dropbtn {
      background-color: #28b394;
  }
-
-body {
-font-family: 'Roboto Mono', monospace;
-font-family: 'Ubuntu', sans-serif;    
-}
-
-.btn:hover {
-    color: white;
-    opacity: 60%;
-}
-
-.flexCol{
-    margin: 6px;
-}
-    nav {
-    background-color: #343a40;
-}
-nav ul {
-    list-style: none;
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    padding-top: 0;
-    background-color: #343a40;
-    display: inline-block;
-}
-nav a {
-    font-size: 16px;
-    color:#FFF;
-    line-height: 60px;
-    text-decoration: none;
-    display: block;
-    padding: 0 10px;
-}
-nav a:hover { 
-    background-color: #9dd8d8; 
-}
-
-nav ul ul {
-    top: 60px;
-    position:absolute;
-    display: none;
-}
-nav ul li:hover > ul {
-    display:inherit;
-}
-nav ul ul li {
-    width: 230px;
-    display: list-item;
-    float:none;
-    position: relative;
-}
-nav ul ul ul li {
-    left: 230px;
-    position: relative;
-    top:-60px;
-}
-nav ul ul li {
-    border: 1px solid white;
-}
-li > a:after { content:' ▾'; }
-li > a:only-child:after { content: ''; }  
+ 
+ body {
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .btn:hover {
+     color: white;
+     opacity: 60%;
+ }
+ 
+ .flexCol {
+     margin: 6px;
+ }
+ 
+ nav {
+     background-color: #343a40;
+ }
+ 
+ nav ul {
+     list-style: none;
+     position: relative;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ nav ul li {
+     padding-top: 0;
+     background-color: #343a40;
+     display: inline-block;
+ }
+ 
+ nav a {
+     font-size: 16px;
+     color: #FFF;
+     line-height: 60px;
+     text-decoration: none;
+     display: block;
+     padding: 0 10px;
+ }
+ 
+ nav a:hover {
+     background-color: #9dd8d8;
+ }
+ 
+ nav ul ul {
+     top: 60px;
+     position: absolute;
+     display: none;
+ }
+ 
+ nav ul li:hover>ul {
+     display: inherit;
+ }
+ 
+ nav ul ul li {
+     width: 230px;
+     display: list-item;
+     float: none;
+     position: relative;
+ }
+ 
+ nav ul ul ul li {
+     left: 230px;
+     position: relative;
+     top: -60px;
+ }
+ 
+ nav ul ul li {
+     border: 1px solid white;
+ }
+ 
+ li>a:after {
+     content: ' ▾';
+ }
+ 
+ li>a:only-child:after {
+     content: '';
+ }

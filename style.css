@@ -801,3 +801,8 @@
  li>a:only-child:after {
      content: '';
  }
+
+ .imagePort{
+    max-width: 580px;
+    width: 100%;
+}

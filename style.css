@@ -93,6 +93,12 @@
      z-index: 9;
      bottom: 0;
  }
+ 
+ #mydiv14 {
+     position: absolute;
+     z-index: 9;
+     bottom: 0;
+ }
  /* (A) 3 COLUMNS ON BIG SCREENS */
  
  .flexWrap {

@@ -125,28 +125,55 @@
 
     <h4> 2 key word instructions </h4>
 
-    <p> Well done you found all of the lions things </p>
-
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
                 <center>
-                    <img src="../images/lion.png" alt="" height="450" />
+                    <img src="../images/teddy.PNG" alt="" height="450" />
                 </center>
             </div>
             <div class="col-6">
-                <img src="../images/yellowball.png" alt="" height="250" />
+                <center>
+                    <img src="../images/doll.png" alt="" height="450" />
+                </center>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div id="mydiv10">
+                        <img src="../images/bananas.png" alt="" height="150 " />
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div id="mydiv11">
+                        <img src="../images/apple.png " alt=" " height="250 " />
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div id="mydiv12">
+                        <img src="../images/strawberry.png " alt=" " height="250 " />
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div id="mydiv13">
+                        <img src="../images/grapes.png " alt=" " height="250 " />
+                    </div>
+                </div>
+
+                <div class="col-3 ">
+                    <div id="mydiv14">
+                        <img src="../images/oranges.png " alt=" " height="250 " />
+                    </div>
+                </div>
             </div>
 
-
-            <div class="position-relative">
-                <div class="d-flex justify-content-between bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <a href="2kw13.html"> <button type="button" class="btn btn-outline-success">Back</button></a>
+            <div class="position-relative ">
+                <div class="d-flex justify-content-between bd-highlight mb-2 ">
+                    <div class="p-2 bd-highlight ">
+                        <a href="2kw27.html "> <button type="button " class="btn btn-outline-success ">Back</button></a>
                     </div>
 
-                    <div class="p-2 bd-highlight"> <a href="2kw15.html"><button type="button" class="btn btn-outline-success"> Next</button></a>
+                    <div class="p-2 bd-highlight "> <a href="2kw29.html "><button type="button " class="btn btn-outline-success "> Next</button></a>
                     </div>
 
                 </div>
@@ -158,15 +185,16 @@
                 dragElement(document.getElementById("mydiv11"));
                 dragElement(document.getElementById("mydiv12"));
                 dragElement(document.getElementById("mydiv13"));
+                dragElement(document.getElementById("mydiv14"));
 
                 function dragElement(elmnt) {
                     var pos1 = 0,
                         pos2 = 0,
                         pos3 = 0,
                         pos4 = 0;
-                    if (document.getElementById(elmnt.id + "header")) {
+                    if (document.getElementById(elmnt.id + "header ")) {
                         // if present, the header is where you move the DIV from:
-                        document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                        document.getElementById(elmnt.id + "header ").onmousedown = dragMouseDown;
                     } else {
                         // otherwise, move the DIV from anywhere inside the DIV:
                         elmnt.onmousedown = dragMouseDown;
@@ -192,8 +220,8 @@
                         pos3 = e.clientX;
                         pos4 = e.clientY;
                         // set the element's new position:
-                        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-                        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                        elmnt.style.top = (elmnt.offsetTop - pos2) + "px ";
+                        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px ";
                     }
 
                     function closeDragElement() {

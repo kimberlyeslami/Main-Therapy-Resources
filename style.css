@@ -99,6 +99,10 @@
      z-index: 9;
      bottom: 0;
  }
+ 
+ span {
+     font-size: 40px;
+ }
  /* (A) 3 COLUMNS ON BIG SCREENS */
  
  .flexWrap {

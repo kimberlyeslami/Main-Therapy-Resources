@@ -659,6 +659,7 @@
      background: rgba(0, 0, 0, 0);
      border: none;
      outline: none;
+     font-size: 18px;
  }
  
  label {
@@ -668,7 +669,7 @@
  }
  
  #textarea {
-     font-size: 24px;
+     font-size: 20px;
  }
  
  #answerbox {

@@ -29,11 +29,11 @@
                         </li>
                         <li><a href="../../../../eyprepositions.html">Prepositions</a>
                             <ul>
-                                <li><a href="#">In, On and Under</a>
+                                <li><a href="../../Prepositions/inonunder/inonunder.html">In, On and Under</a>
                                     <ul>
-                                        <li><a href="../../Prepositions/inonunder/inonunder.html">In</a></li>
-                                        <li><a href="../../Prepositions/inonunder/inonunder.html">On</a></li>
-                                        <li><a href="../../Prepositions/inonunder/inonunder.html">Under</a>
+                                        <li><a href="../../Prepositions/in/in.html">In</a></li>
+                                        <li><a href="../../Prepositions/on/on.html">On</a></li>
+                                        <li><a href="../../Prepositions/under/under.html">Under</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -123,35 +123,41 @@
         </nav>
     </div>
 
+
     <h2> in ,on and under</h2>
 
     <h5> Where is teddy? </h5>
 
-    <div class="container-md">
+
+    <div class="container">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <img src="./images/teddyinbox.png" alt="teddy under table" height="350" width="350" id="teddyinbox">
+            <div class="col-8">
+                <img src="../images/teddyinbox.png" alt="teddy in box" height="350" width="350" id="teddyinbox">
             </div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="mb-3" id="answerbox">
-                <label for="exampleFormControlTextarea1" class="form-label">Type your answer here:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <div class="col-4">
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Try again :(  The teddy is not ON the box! ">
+            <img src="../images/on.png" alt="on" width="180" height="180">
+          </button>
+                <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content=" Well Done :) the teddy is IN the box! ">
+            <img src="../images/in.png" alt="under" width="180" height="180">
+          </button>
             </div>
         </div>
-    </div>
 
-    <div class="d-flex justify-content-between bd-highlight mb-2">
-        <div class="p-2 bd-highlight">
-            <a href="inonunderq53.html"> <button type="button" class="btn btn-outline-success"> Previous Question</button></a>
+        <div class="d-flex justify-content-between bd-highlight mb-2">
+            <div class="p-2 bd-highlight">
+                <a href="inonunderq53.html"> <button type="button" class="btn btn-outline-success"> Previous Question</button></a>
+            </div>
+
+            <div class="p-2 bd-highlight"> <a href="../../../../eyprepositions.html"><button type="button" class="btn btn-outline-success">Back to Prepositions</button></a></div>
         </div>
 
-        <div class="p-2 bd-highlight"> <a href="../../../../eyprepositions.html"><button type="button" class="btn btn-outline-success">Back to Prepositions</button></a></div>
-    </div>
-
-
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+        </script>
 
 </body>
 
